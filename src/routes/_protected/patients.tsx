@@ -1,4 +1,4 @@
-import {  useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { createFileRoute, Link, redirect, useNavigate } from '@tanstack/react-router';
 import { Search, UserRoundPlus } from 'lucide-react';
 import PatientsTable from '../../module/PatientsPage/PatientsTable';
@@ -25,14 +25,12 @@ const Patients = () => {
 		setFilteredPatients(filteredPatients);
 	};
 
-	
 	useEffect(() => {
 		setFilteredPatients(patients);
-	}, [patients])
-	
-	
+	}, [patients]);
+
 	//console.log('Loading Patients')
-	console.log("patients data", patients);
+	console.log('patients data', patients);
 
 	return (
 		<div className='flex h-full flex-col gap-y-10'>
@@ -58,11 +56,11 @@ const Patients = () => {
 			<div className='grow max-lg:hidden'>
 				<PatientsTable patients={filteredPatients} />
 			</div>
-			
+
 			<div className='space-y-10 lg:hidden'>
 				<PatientsCards patients={filteredPatients} />
 			</div>
-			
+
 			<PatientModal
 				handleShowModal={() => navigate({ search: {} })}
 				mode={mode}
@@ -75,7 +73,7 @@ const Patients = () => {
 
 const getValueOrEmpty = (val: string | Date | undefined) => {
 	return !!val ? (val as string).substring(0, 10) : 'Empty';
-}
+};
 
 const convertPatientForForm = (patient: PatientWithoutScans): EditingPatient => {
 	const { diabetesDetails } = patient;
@@ -99,7 +97,7 @@ const convertPatientForForm = (patient: PatientWithoutScans): EditingPatient => 
 
 export type QueryParams =
 	| { mode: 'Edit'; patientId: string; state?: string }
-	| { mode?: 'Add'; patientId?: undefined; state?: string }
+	| { mode?: 'Add'; patientId?: undefined; state?: string };
 
 const queryParamsAreValid = (search: Record<string, unknown>): search is QueryParams => {
 	const { mode, patientId } = search;
@@ -123,7 +121,7 @@ export const Route = createFileRoute('/_protected/patients')({
 		if (search.state) {
 			window.history.replaceState({}, document.title, window.location.pathname);
 		}
-		return {mode: search.mode};
+		return { mode: search.mode };
 	},
 	loader: async ({ context }) => {
 		context.pageName = 'Patients';
@@ -131,8 +129,7 @@ export const Route = createFileRoute('/_protected/patients')({
 		// isAuthenticated);
 		//console.log('context token', context.token);
 		let patients: Array<PatientWithoutScans> = [];
-		if(!!context.token)
-			patients = await axiosClient(getPatientsConfig(context.token));
+		if (!!context.token) patients = await axiosClient(getPatientsConfig(context.token));
 		//const patients = getPatients();
 
 		if (context.mode === 'Edit' && !!context.token) {
@@ -146,7 +143,7 @@ export const Route = createFileRoute('/_protected/patients')({
 				patients,
 				editingPatient: convertPatientForForm(editingPatient),
 				mode: context.mode,
-				token: context.token
+				token: context.token,
 			};
 		}
 		return { patients, mode: context.mode, token: context.token };

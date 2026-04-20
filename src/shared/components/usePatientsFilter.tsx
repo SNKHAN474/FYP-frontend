@@ -1,18 +1,22 @@
 import { useMemo } from 'react';
 
+// Adjusted type to match your MongoDB Schema
 type Patient = {
-	name: string;
-	age: number;
-	id: string;
-	startDate: string;
-	lastVisit: string;
-	nextVisit: string;
-	ulcerGrade: string;
-	status: 'New' | 'Active' | 'In-Active' | 'Warning';
-	flag?: boolean;
+	PatientId: string;
+	Name: string;
+	'Personal Details': {
+		Status: string;
+		NextVisitDate: string;
+		LastVisitDate: string;
+		TreatmentStartDate: string;
+		DateOfBirth: string;
+	};
+	Ulcers: Array<{
+		UlcerGrade: string;
+	}>;
 };
 
-type SortOption = 'nextVisit' | 'lastVisit' | 'startDate' | 'name' | 'age';
+type SortOption = 'nextVisit' | 'lastVisit' | 'startDate' | 'name';
 
 export const usePatientsFilter = (
 	patients: Patient[],
@@ -22,53 +26,50 @@ export const usePatientsFilter = (
 	sortBy: SortOption,
 ) => {
 	const filteredAndSortedPatients = useMemo(() => {
-		let filtered = [...patients];
+		let filtered = [...(patients || [])];
 
-		// Apply search filter
+		// 1. Search Filter (Name or ID)
 		if (searchTerm) {
+			const lowSearch = searchTerm.toLowerCase();
 			filtered = filtered.filter(
-				patient =>
-					patient.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-					patient.id.includes(searchTerm),
+				p =>
+					p['Personal Details']?.Name?.toLowerCase().includes(lowSearch) ||
+					p.PatientId?.toLowerCase().includes(lowSearch),
 			);
 		}
 
-		// Apply status filter
+		// 2. Status Filter (Nested in Personal Details)
 		if (statusFilter) {
-			filtered = filtered.filter(patient => patient.status === statusFilter);
+			filtered = filtered.filter(p => p['Personal Details']?.Status === statusFilter);
 		}
 
-		// Apply ulcer grade filter - check for number in the grade string
+		// 3. Ulcer Grade Filter (Check array of Ulcers)
 		if (ulcerGradeFilter) {
-			const gradeNumber = ulcerGradeFilter.trim();
-			filtered = filtered.filter(patient => {
-				const patientGrades = patient.ulcerGrade.split('|').map(g => g.trim());
-				// Check if the grade number appears anywhere in the ulcer grade
-				return patientGrades.some(grade => grade === gradeNumber);
-			});
+			filtered = filtered.filter(p => p.Ulcers?.some(u => u.UlcerGrade === ulcerGradeFilter));
 		}
 
-		// Apply sorting
+		// 4. Sorting Logic
 		filtered.sort((a, b) => {
+			const detailsA = a['Personal Details'];
+			const detailsB = b['Personal Details'];
+
 			switch (sortBy) {
 				case 'name':
-					return a.name.localeCompare(b.name);
-				case 'age':
-					return a.age - b.age;
+					return a.Name.localeCompare(b.Name);
 				case 'nextVisit':
 					return (
-						new Date(a.nextVisit.split('/').reverse().join('-')).getTime() -
-						new Date(b.nextVisit.split('/').reverse().join('-')).getTime()
+						new Date(detailsA?.NextVisitDate).getTime() -
+						new Date(detailsB?.NextVisitDate).getTime()
 					);
 				case 'lastVisit':
 					return (
-						new Date(a.lastVisit.split('/').reverse().join('-')).getTime() -
-						new Date(b.lastVisit.split('/').reverse().join('-')).getTime()
+						new Date(detailsB?.LastVisitDate).getTime() -
+						new Date(detailsA?.LastVisitDate).getTime()
 					);
 				case 'startDate':
 					return (
-						new Date(a.startDate.split('/').reverse().join('-')).getTime() -
-						new Date(b.startDate.split('/').reverse().join('-')).getTime()
+						new Date(detailsA?.TreatmentStartDate).getTime() -
+						new Date(detailsB?.TreatmentStartDate).getTime()
 					);
 				default:
 					return 0;

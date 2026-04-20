@@ -184,7 +184,7 @@ const PatientsTable: React.FC<PatientsTableProps> = ({ filterByScanStatus }) => 
 						key={index}
 						className='text-gray-700 border-gray-300 
                        grid grid-cols-[1.5fr,1fr,1fr,1fr,1fr,1fr,1fr,1fr,40px]
-                       items-center border-b bg-white-primary px-4 py-3 text-sm'
+                       items-center border-b bg-white-primary px-4 py-3 text-sm transition-colors hover:bg-[#d7f4f7]'
 					>
 						<div className='flex items-center gap-2 pl-2'>
 							{p.flag && (

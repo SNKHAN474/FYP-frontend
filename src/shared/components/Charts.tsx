@@ -1,21 +1,18 @@
 import React from 'react';
 import { Pie, Doughnut } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend, Title } from 'chart.js';
-import patientsData from '../../data/dummy_data.json';
 
 // ===============================
-// Plugin: White labels inside pie slices (ONLY applied to Pie chart)
+// Plugin: White labels inside pie slices
 // ===============================
 const PieSliceLabelPlugin = {
 	id: 'pieSliceLabel',
 	afterDraw(chart: any) {
-		// Only apply if chart type is PIE (not doughnut)
 		if (chart.config.type !== 'pie') return;
 
 		const { ctx } = chart;
-
 		ctx.save();
-		ctx.font = 'bold 14px sans-serif';
+		ctx.font = 'bold 12px sans-serif';
 		ctx.fillStyle = 'white';
 		ctx.textAlign = 'center';
 		ctx.textBaseline = 'middle';
@@ -25,11 +22,11 @@ const PieSliceLabelPlugin = {
 		const labels = chart.data.labels;
 
 		meta.data.forEach((slice: any, index: number) => {
-			const { x, y } = slice.tooltipPosition();
-			const value = data[index];
-			const label = labels[index];
-
-			ctx.fillText(`${value} ${label}`, x, y);
+			// Only draw if the slice is large enough to see
+			if (data[index] > 0) {
+				const { x, y } = slice.tooltipPosition();
+				ctx.fillText(`${data[index]}`, x, y);
+			}
 		});
 
 		ctx.restore();
@@ -39,15 +36,17 @@ const PieSliceLabelPlugin = {
 // Register core + plugin
 ChartJS.register(ArcElement, Tooltip, Legend, Title, PieSliceLabelPlugin);
 
-// ===============================
-// Scan Status Pie Chart
-// ===============================
-export const ScanStatusPieChart: React.FC = () => {
-	const patients = patientsData.patients;
+interface ChartProps {
+	patients: any[];
+}
 
-	// Count each scanStatus
-	const statusCounts = patients.reduce((acc: Record<string, number>, p) => {
-		const status = p.scanStatus || 'No Scans';
+// ===============================
+// Scan Status Pie Chart (Uses MongoDB "Personal Details.Status")
+// ===============================
+export const ScanStatusPieChart: React.FC<ChartProps> = ({ patients }) => {
+	// Extract status from MongoDB nested structure
+	const statusCounts = (patients || []).reduce((acc: Record<string, number>, p) => {
+		const status = p['Personal Details']?.Status || 'No Status';
 		acc[status] = (acc[status] || 0) + 1;
 		return acc;
 	}, {});
@@ -60,7 +59,7 @@ export const ScanStatusPieChart: React.FC = () => {
 		datasets: [
 			{
 				data: values,
-				backgroundColor: ['#63ff94ff', '#058c10ff', '#9966FF', '#4BC0C0', '#ff6666ff'],
+				backgroundColor: ['#058c10ff', '#ff6666ff', '#9966FF', '#4BC0C0', '#63ff94ff'],
 			},
 		],
 	};
@@ -68,83 +67,23 @@ export const ScanStatusPieChart: React.FC = () => {
 	const options = {
 		responsive: true,
 		plugins: {
-			tooltip: {
-				enabled: false,
-				external: function (context) {
-					// Create tooltip element if it doesn't exist
-					let tooltipEl = document.getElementById('chartjs-tooltip');
-					if (!tooltipEl) {
-						tooltipEl = document.createElement('div');
-						tooltipEl.id = 'chartjs-tooltip';
-						tooltipEl.style.position = 'absolute';
-						tooltipEl.style.background = 'rgba(0,0,0,0.8)';
-						tooltipEl.style.color = 'white';
-						tooltipEl.style.padding = '8px 10px';
-						tooltipEl.style.borderRadius = '6px';
-						tooltipEl.style.pointerEvents = 'none';
-						tooltipEl.style.transform = 'translate(-50%, -100%)';
-						tooltipEl.style.whiteSpace = 'nowrap';
-						document.body.appendChild(tooltipEl);
-					}
-
-					const tooltip = context.tooltip;
-
-					if (tooltip.opacity === 0) {
-						tooltipEl.style.opacity = '0';
-						return;
-					}
-
-					tooltipEl.style.opacity = '1';
-					tooltipEl.innerHTML = tooltip.body[0].lines[0];
-
-					const { x, y } = context.chart.canvas.getBoundingClientRect();
-
-					tooltipEl.style.left = x + tooltip.caretX + 'px';
-					tooltipEl.style.top = y + tooltip.caretY + 'px';
-				},
-			},
-
 			title: {
 				display: true,
-				text: 'Scan Status Distribution',
-				font: {
-					size: 20,
-					weight: 'bold',
-				},
-				padding: { bottom: 10 },
-				position: 'top',
-				align: 'start',
+				text: 'Patient Status Overview',
+				font: { size: 18, weight: 'bold' as const },
+				align: 'start' as const,
 			},
 			legend: {
-				position: 'right',
-				align: 'end',
-				labels: {
-					usePointStyle: true,
-					pointStyle: 'circle',
-					generateLabels: (chart: any) => {
-						return chart.data.labels.map((label: any, index: number) => ({
-							text: `${label}`,
-							fillStyle: chart.data.datasets[0].backgroundColor[index],
-							strokeStyle: chart.data.datasets[0].backgroundColor[index],
-							lineWidth: 1,
-							hidden: false,
-							index,
-						}));
-					},
-				},
-			},
-		},
-		layout: {
-			padding: {
-				right: 50,
+				position: 'right' as const,
+				labels: { usePointStyle: true, pointStyle: 'circle' },
 			},
 		},
 		maintainAspectRatio: false,
 	};
 
 	return (
-		<div className='relative h-full min-h-[300px] w-full lg:max-h-[560px] lg:max-w-[705px]'>
-			<div className='absolute inset-0 flex items-center justify-start rounded-xl border border-slate-border bg-white-primary p-4 shadow-sm'>
+		<div className='relative h-[300px] w-full lg:max-w-[500px]'>
+			<div className='border-slate-200 flex h-full items-center justify-center rounded-xl bg-white-primary p-4 shadow-sm'>
 				<Pie data={data} options={options} />
 			</div>
 		</div>
@@ -152,28 +91,25 @@ export const ScanStatusPieChart: React.FC = () => {
 };
 
 // ===============================
-// Ulcer Grade Doughnut Chart (NO slice labels)
+// Ulcer Grade Doughnut Chart (Iterates MongoDB "Ulcers" Array)
 // ===============================
-export const UlcerGradeDoughnut: React.FC = () => {
-	const patients = patientsData.patients;
-
-	// Count ulcer grade (support multiple grades separated by "|")
-	const gradeCounts = patients.reduce((acc: Record<string, number>, patient) => {
-		if (!patient.ulcerGrade || patient.ulcerGrade.trim() === '') {
-			acc['Unreviewed'] = (acc['Unreviewed'] || 0) + 1;
-			return acc;
+export const UlcerGradeDoughnut: React.FC<ChartProps> = ({ patients }) => {
+	// Iterate through every patient and every ulcer in their Ulcers array
+	const gradeCounts = (patients || []).reduce((acc: Record<string, number>, patient) => {
+		if (patient.Ulcers && Array.isArray(patient.Ulcers) && patient.Ulcers.length > 0) {
+			patient.Ulcers.forEach((ulcer: any) => {
+				const grade = ulcer.UlcerGrade || 'Unreviewed';
+				acc[grade] = (acc[grade] || 0) + 1;
+			});
+		} else {
+			acc['No Ulcers'] = (acc['No Ulcers'] || 0) + 1;
 		}
-
-		const grades = patient.ulcerGrade.split('|').map(g => g.trim());
-		grades.forEach(grade => {
-			acc[grade] = (acc[grade] || 0) + 1;
-		});
-
 		return acc;
 	}, {});
 
+	// Sort labels numerically (Grade 1, 2, 3...)
 	const labels = Object.keys(gradeCounts).sort();
-	const values = Object.values(gradeCounts);
+	const values = labels.map(label => gradeCounts[label]);
 
 	const data = {
 		labels,
@@ -181,15 +117,15 @@ export const UlcerGradeDoughnut: React.FC = () => {
 			{
 				data: values,
 				backgroundColor: [
-					'#393939',
 					'#34ACBE',
-					'#09424A',
-					'#C2E4E9',
-					'#BB4640',
 					'#F75F57',
+					'#09424A',
+					'#BB4640',
+					'#C2E4E9',
 					'#ffed85ff',
+					'#393939',
 				],
-				cutout: '80%',
+				cutout: '75%',
 			},
 		],
 	};
@@ -200,28 +136,23 @@ export const UlcerGradeDoughnut: React.FC = () => {
 			title: {
 				display: true,
 				text: 'Ulcer Grade Distribution',
-				font: {
-					size: 18,
-					weight: 'bold',
-				},
-				padding: { bottom: 10 },
-				position: 'top' as const,
-				align: 'start',
+				font: { size: 18, weight: 'bold' as const },
+				align: 'start' as const,
 			},
 			legend: {
 				position: 'bottom' as const,
-				align: 'center',
 				labels: {
 					usePointStyle: true,
 					pointStyle: 'circle',
 					generateLabels: (chart: any) => {
-						return chart.data.labels.map((label: any, index: number) => ({
-							text: `Grade ${label}`,
-							fillStyle: chart.data.datasets[0].backgroundColor[index],
-							strokeStyle: chart.data.datasets[0].backgroundColor[index],
-							lineWidth: 1,
-							hidden: false,
-							index,
+						const original = ChartJS.overrides.doughnut.plugins.legend.labels.generateLabels;
+						const labelsArray = original(chart);
+						return labelsArray.map((label: any) => ({
+							...label,
+							text:
+								label.text === 'No Ulcers' || label.text === 'Unreviewed'
+									? label.text
+									: `Grade ${label.text}`,
 						}));
 					},
 				},
@@ -231,8 +162,8 @@ export const UlcerGradeDoughnut: React.FC = () => {
 	};
 
 	return (
-		<div className='relative h-full min-h-[250px] w-full lg:max-h-[413px] lg:max-w-[338px]'>
-			<div className='absolute inset-0 flex items-center justify-center rounded-xl border border-slate-border bg-white-primary p-4 shadow-sm'>
+		<div className='relative h-[350px] w-full lg:max-w-[350px]'>
+			<div className='border-slate-200 flex h-full items-center justify-center rounded-xl bg-white-primary p-4 shadow-sm'>
 				<Doughnut data={data} options={options} />
 			</div>
 		</div>

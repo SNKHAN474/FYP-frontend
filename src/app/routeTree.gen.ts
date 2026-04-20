@@ -21,8 +21,9 @@ import { Route as AuthSignupImport } from './../routes/_auth/signup'
 import { Route as AuthResetPasswordImport } from './../routes/_auth/reset-password'
 import { Route as AuthLoginImport } from './../routes/_auth/login'
 import { Route as AuthForgotPasswordImport } from './../routes/_auth/forgot-password'
-import { Route as AuthTEMPtoggletestImport } from './../routes/_auth/TEMP_toggle_test'
+import { Route as AuthTEMPtabletestImport } from './../routes/_auth/TEMP_table_test'
 import { Route as ProtectedPatientsPatientIdImport } from './../routes/_protected/patients_.$patientId'
+import { Route as AuthPatientsPatientIdImport } from './../routes/_auth/patients/$patientId'
 
 // Create/Update Routes
 
@@ -76,8 +77,8 @@ const AuthForgotPasswordRoute = AuthForgotPasswordImport.update({
   getParentRoute: () => AuthRoute,
 } as any)
 
-const AuthTEMPtoggletestRoute = AuthTEMPtoggletestImport.update({
-  path: '/TEMP_toggle_test',
+const AuthTEMPtabletestRoute = AuthTEMPtabletestImport.update({
+  path: '/TEMP_table_test',
   getParentRoute: () => AuthRoute,
 } as any)
 
@@ -87,6 +88,11 @@ const ProtectedPatientsPatientIdRoute = ProtectedPatientsPatientIdImport.update(
     getParentRoute: () => ProtectedRoute,
   } as any,
 )
+
+const AuthPatientsPatientIdRoute = AuthPatientsPatientIdImport.update({
+  path: '/patients/$patientId',
+  getParentRoute: () => AuthRoute,
+} as any)
 
 // Populate the FileRoutesByPath interface
 
@@ -108,8 +114,8 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProtectedImport
       parentRoute: typeof rootRoute
     }
-    '/_auth/TEMP_toggle_test': {
-      preLoaderRoute: typeof AuthTEMPtoggletestImport
+    '/_auth/TEMP_table_test': {
+      preLoaderRoute: typeof AuthTEMPtabletestImport
       parentRoute: typeof AuthImport
     }
     '/_auth/forgot-password': {
@@ -136,6 +142,10 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProtectedPatientsImport
       parentRoute: typeof ProtectedImport
     }
+    '/_auth/patients/$patientId': {
+      preLoaderRoute: typeof AuthPatientsPatientIdImport
+      parentRoute: typeof AuthImport
+    }
     '/_protected/patients/$patientId': {
       preLoaderRoute: typeof ProtectedPatientsPatientIdImport
       parentRoute: typeof ProtectedImport
@@ -149,11 +159,12 @@ export const routeTree = rootRoute.addChildren([
   IndexRoute,
   SplatRoute,
   AuthRoute.addChildren([
-    AuthTEMPtoggletestRoute,
+    AuthTEMPtabletestRoute,
     AuthForgotPasswordRoute,
     AuthLoginRoute,
     AuthResetPasswordRoute,
     AuthSignupRoute,
+    AuthPatientsPatientIdRoute,
   ]),
   ProtectedRoute.addChildren([
     ProtectedMessagesRoute,

@@ -4,7 +4,7 @@ import { Scan } from './ScanTypes';
 export type ClinicianNotes = {
 	created: string;
 	notes: string;
-}
+};
 
 export type Patient = {
 	id: string;

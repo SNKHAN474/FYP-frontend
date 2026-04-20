@@ -1,0 +1,6733 @@
+[
+	{
+		"ClinicianId": "DOC-183",
+		"PatientId": "PAT-37462",
+		"Name": "Denise Lloyd",
+		"UserNumber": "+1-700-497-7359",
+		"Personal Details": {
+			"PatientId": "PAT-37462",
+			"DateOfBirth": "20/11/1980",
+			"Name": "Kim Jordan",
+			"TreatmentStartDate": "25/12/2025",
+			"LastScanDate": "10/01/2026",
+			"NextScanDate": "08/02/2026",
+			"LastVisitDate": "23/01/2026",
+			"NextVisitDate": "06/03/2026",
+			"Status": "Warning",
+			"Gender": "Male",
+			"Height": "175",
+			"Weight": "107",
+			"ContactDetails": {
+				"Phone": "811.658.8504",
+				"EmailAddress": "bryantandrea@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "30",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.2",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 1.14,
+				"yCoordinate": 7.37,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 0.66,
+				"yCoordinate": 6.01,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 2.33,
+				"yCoordinate": 5.94,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.5",
+				"Volume": "2.48",
+				"Depth": "0.97",
+				"LatestGlucoseReading": "125",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "37.3",
+				"Volume": "2.85",
+				"Depth": "1.09",
+				"LatestGlucoseReading": "167",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "36.9",
+				"Volume": "4.48",
+				"Depth": "0.25",
+				"LatestGlucoseReading": "148",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-886",
+		"PatientId": "PAT-1085",
+		"Name": "Abigail Arias",
+		"UserNumber": "6609204792",
+		"Personal Details": {
+			"PatientId": "PAT-1085",
+			"DateOfBirth": "23/09/1983",
+			"Name": "Troy Elliott MD",
+			"TreatmentStartDate": "21/03/2025",
+			"LastScanDate": "03/02/2026",
+			"NextScanDate": "16/02/2026",
+			"LastVisitDate": "22/01/2026",
+			"NextVisitDate": "16/03/2026",
+			"Status": "New",
+			"Gender": "Female",
+			"Height": "165",
+			"Weight": "97",
+			"ContactDetails": {
+				"Phone": "358.630.4564x8715",
+				"EmailAddress": "mark02@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "5",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.2",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 4.24,
+				"yCoordinate": 1.53,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 1.58,
+				"yCoordinate": 1.4,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 9.1,
+				"yCoordinate": 3.92,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "38.1",
+				"Volume": "4.22",
+				"Depth": "0.98",
+				"LatestGlucoseReading": "133",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "37.3",
+				"Volume": "2.17",
+				"Depth": "1.0",
+				"LatestGlucoseReading": "94",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "36.8",
+				"Volume": "1.69",
+				"Depth": "0.91",
+				"LatestGlucoseReading": "163",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-411",
+		"PatientId": "PAT-59812",
+		"Name": "Nathan Leon",
+		"UserNumber": "614-702-7916x39729",
+		"Personal Details": {
+			"PatientId": "PAT-59812",
+			"DateOfBirth": "29/08/1949",
+			"Name": "Cameron Sherman",
+			"TreatmentStartDate": "09/11/2025",
+			"LastScanDate": "24/01/2026",
+			"NextScanDate": "02/03/2026",
+			"LastVisitDate": "01/02/2026",
+			"NextVisitDate": "08/03/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "165",
+			"Weight": "81",
+			"ContactDetails": {
+				"Phone": "207-511-8759x388",
+				"EmailAddress": "millsjeffery@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "34",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 6.55,
+				"yCoordinate": 6.68,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 3.26,
+				"yCoordinate": 8.99,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 5.97,
+				"yCoordinate": 6.07,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "38.3",
+				"Volume": "1.28",
+				"Depth": "0.96",
+				"LatestGlucoseReading": "116",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "37.3",
+				"Volume": "1.24",
+				"Depth": "0.23",
+				"LatestGlucoseReading": "148",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "36.6",
+				"Volume": "3.95",
+				"Depth": "0.87",
+				"LatestGlucoseReading": "116",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-418",
+		"PatientId": "PAT-76694",
+		"Name": "Richard Lee",
+		"UserNumber": "599.787.2570x784",
+		"Personal Details": {
+			"PatientId": "PAT-76694",
+			"DateOfBirth": "20/07/1972",
+			"Name": "Laura Hahn",
+			"TreatmentStartDate": "18/03/2025",
+			"LastScanDate": "08/01/2026",
+			"NextScanDate": "15/02/2026",
+			"LastVisitDate": "31/01/2026",
+			"NextVisitDate": "28/02/2026",
+			"Status": "In-Active",
+			"Gender": "Female",
+			"Height": "190",
+			"Weight": "67",
+			"ContactDetails": {
+				"Phone": "750-464-8233x246",
+				"EmailAddress": "stephanie57@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "33",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.3",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 2.15,
+				"yCoordinate": 8.77,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 7.8,
+				"yCoordinate": 8.28,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "37.9",
+				"Volume": "4.13",
+				"Depth": "0.96",
+				"LatestGlucoseReading": "137",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "38.3",
+				"Volume": "2.35",
+				"Depth": "0.27",
+				"LatestGlucoseReading": "115",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-322",
+		"PatientId": "PAT-62671",
+		"Name": "Troy Martinez",
+		"UserNumber": "3548202994",
+		"Personal Details": {
+			"PatientId": "PAT-62671",
+			"DateOfBirth": "24/01/1974",
+			"Name": "Dr. Shawn Miles",
+			"TreatmentStartDate": "19/01/2026",
+			"LastScanDate": "23/01/2026",
+			"NextScanDate": "11/02/2026",
+			"LastVisitDate": "04/02/2026",
+			"NextVisitDate": "10/03/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "172",
+			"Weight": "110",
+			"ContactDetails": {
+				"Phone": "502.307.0395x873",
+				"EmailAddress": "parkerkristin@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "13",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.2",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 7.91,
+				"yCoordinate": 8.29,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 1.49,
+				"yCoordinate": 8.89,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "38.5",
+				"Volume": "2.18",
+				"Depth": "0.33",
+				"LatestGlucoseReading": "96",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.3",
+				"Volume": "0.59",
+				"Depth": "0.79",
+				"LatestGlucoseReading": "180",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-124",
+		"PatientId": "PAT-26314",
+		"Name": "Hailey Pittman",
+		"UserNumber": "760-917-0806x6295",
+		"Personal Details": {
+			"PatientId": "PAT-26314",
+			"DateOfBirth": "19/03/1979",
+			"Name": "Joseph Richard",
+			"TreatmentStartDate": "04/08/2025",
+			"LastScanDate": "25/01/2026",
+			"NextScanDate": "15/02/2026",
+			"LastVisitDate": "29/01/2026",
+			"NextVisitDate": "04/03/2026",
+			"Status": "Active",
+			"Gender": "Male",
+			"Height": "151",
+			"Weight": "92",
+			"ContactDetails": {
+				"Phone": "(800)718-0146x5481",
+				"EmailAddress": "allison56@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "38",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.5",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 1.45,
+				"yCoordinate": 3.96,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 10,
+				"UlcerTemperature": "38.5",
+				"Volume": "3.44",
+				"Depth": "0.96",
+				"LatestGlucoseReading": "150",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-242",
+		"PatientId": "PAT-48026",
+		"Name": "Nancy Woodard DVM",
+		"UserNumber": "331.996.3345x5376",
+		"Personal Details": {
+			"PatientId": "PAT-48026",
+			"DateOfBirth": "14/12/1952",
+			"Name": "Deborah Brown",
+			"TreatmentStartDate": "18/10/2025",
+			"LastScanDate": "22/01/2026",
+			"NextScanDate": "07/02/2026",
+			"LastVisitDate": "02/02/2026",
+			"NextVisitDate": "15/03/2026",
+			"Status": "Warning",
+			"Gender": "Male",
+			"Height": "200",
+			"Weight": "73",
+			"ContactDetails": {
+				"Phone": "+1-670-995-9239x828",
+				"EmailAddress": "gcollins@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "13",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.2",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 8.55,
+				"yCoordinate": 8.93,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "37.3",
+				"Volume": "1.06",
+				"Depth": "0.31",
+				"LatestGlucoseReading": "122",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-514",
+		"PatientId": "PAT-56812",
+		"Name": "Pamela Smith",
+		"UserNumber": "655-325-3751",
+		"Personal Details": {
+			"PatientId": "PAT-56812",
+			"DateOfBirth": "22/10/1979",
+			"Name": "James Davidson",
+			"TreatmentStartDate": "04/12/2025",
+			"LastScanDate": "15/01/2026",
+			"NextScanDate": "22/02/2026",
+			"LastVisitDate": "29/01/2026",
+			"NextVisitDate": "03/03/2026",
+			"Status": "In-Active",
+			"Gender": "Female",
+			"Height": "192",
+			"Weight": "65",
+			"ContactDetails": {
+				"Phone": "001-938-242-4974x8512",
+				"EmailAddress": "ymcguire@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "17",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.1",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 4.63,
+				"yCoordinate": 0.63,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "37.7",
+				"Volume": "4.66",
+				"Depth": "0.95",
+				"LatestGlucoseReading": "116",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-474",
+		"PatientId": "PAT-79917",
+		"Name": "Nicole Wagner",
+		"UserNumber": "001-615-991-4690x3435",
+		"Personal Details": {
+			"PatientId": "PAT-79917",
+			"DateOfBirth": "22/09/1974",
+			"Name": "Brad Wagner",
+			"TreatmentStartDate": "14/09/2025",
+			"LastScanDate": "02/02/2026",
+			"NextScanDate": "28/02/2026",
+			"LastVisitDate": "28/01/2026",
+			"NextVisitDate": "02/03/2026",
+			"Status": "Active",
+			"Gender": "Female",
+			"Height": "160",
+			"Weight": "77",
+			"ContactDetails": {
+				"Phone": "(724)567-1180x72698",
+				"EmailAddress": "pnguyen@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "32",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "6.9",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 1.91,
+				"yCoordinate": 5.02,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 10,
+				"UlcerTemperature": "38.3",
+				"Volume": "2.16",
+				"Depth": "0.34",
+				"LatestGlucoseReading": "180",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-893",
+		"PatientId": "PAT-67651",
+		"Name": "Amy Nguyen",
+		"UserNumber": "001-503-461-3726x641",
+		"Personal Details": {
+			"PatientId": "PAT-67651",
+			"DateOfBirth": "08/03/1980",
+			"Name": "Craig Moody",
+			"TreatmentStartDate": "13/08/2025",
+			"LastScanDate": "20/01/2026",
+			"NextScanDate": "21/02/2026",
+			"LastVisitDate": "30/01/2026",
+			"NextVisitDate": "28/02/2026",
+			"Status": "New",
+			"Gender": "Male",
+			"Height": "187",
+			"Weight": "114",
+			"ContactDetails": {
+				"Phone": "+1-666-827-1176",
+				"EmailAddress": "martinnicole@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "1",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "6.9",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.02,
+				"yCoordinate": 7.59,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 2.67,
+				"yCoordinate": 0.53,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 4.16,
+				"yCoordinate": 0.57,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "37.1",
+				"Volume": "4.24",
+				"Depth": "0.38",
+				"LatestGlucoseReading": "115",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "38.4",
+				"Volume": "0.88",
+				"Depth": "0.29",
+				"LatestGlucoseReading": "94",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 10,
+				"UlcerTemperature": "37.3",
+				"Volume": "3.27",
+				"Depth": "0.87",
+				"LatestGlucoseReading": "154",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-259",
+		"PatientId": "PAT-35874",
+		"Name": "John Small",
+		"UserNumber": "513.570.6966x585",
+		"Personal Details": {
+			"PatientId": "PAT-35874",
+			"DateOfBirth": "30/04/1981",
+			"Name": "Jennifer Spence",
+			"TreatmentStartDate": "20/01/2026",
+			"LastScanDate": "30/01/2026",
+			"NextScanDate": "01/03/2026",
+			"LastVisitDate": "02/02/2026",
+			"NextVisitDate": "15/03/2026",
+			"Status": "Active",
+			"Gender": "Female",
+			"Height": "188",
+			"Weight": "51",
+			"ContactDetails": {
+				"Phone": "912-419-7949x3408",
+				"EmailAddress": "owenkelly@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "11",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.3",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 2.9,
+				"yCoordinate": 3.45,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "37.5",
+				"Volume": "2.21",
+				"Depth": "1.34",
+				"LatestGlucoseReading": "169",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-357",
+		"PatientId": "PAT-39132",
+		"Name": "Kenneth Jackson",
+		"UserNumber": "(956)323-2042",
+		"Personal Details": {
+			"PatientId": "PAT-39132",
+			"DateOfBirth": "27/01/1980",
+			"Name": "Jacqueline Jones",
+			"TreatmentStartDate": "20/09/2025",
+			"LastScanDate": "11/01/2026",
+			"NextScanDate": "06/03/2026",
+			"LastVisitDate": "02/02/2026",
+			"NextVisitDate": "01/03/2026",
+			"Status": "In-Active",
+			"Gender": "Female",
+			"Height": "177",
+			"Weight": "111",
+			"ContactDetails": {
+				"Phone": "910-940-6569",
+				"EmailAddress": "contreraseric@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "23",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.7",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 5.36,
+				"yCoordinate": 9.15,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 4.01,
+				"yCoordinate": 8.33,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 5.24,
+				"yCoordinate": 2.86,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "36.3",
+				"Volume": "2.28",
+				"Depth": "0.44",
+				"LatestGlucoseReading": "113",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "38.4",
+				"Volume": "3.1",
+				"Depth": "0.41",
+				"LatestGlucoseReading": "155",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "36.2",
+				"Volume": "0.5",
+				"Depth": "0.12",
+				"LatestGlucoseReading": "115",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-230",
+		"PatientId": "PAT-84928",
+		"Name": "Mr. Daniel Griffin MD",
+		"UserNumber": "+1-904-661-4176x822",
+		"Personal Details": {
+			"PatientId": "PAT-84928",
+			"DateOfBirth": "15/10/1945",
+			"Name": "Stacey Simon",
+			"TreatmentStartDate": "01/07/2025",
+			"LastScanDate": "14/01/2026",
+			"NextScanDate": "11/02/2026",
+			"LastVisitDate": "23/01/2026",
+			"NextVisitDate": "17/03/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "167",
+			"Weight": "87",
+			"ContactDetails": {
+				"Phone": "(672)518-8799x387",
+				"EmailAddress": "groberts@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "27",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.3",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.62,
+				"yCoordinate": 9.5,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "37.1",
+				"Volume": "3.47",
+				"Depth": "0.63",
+				"LatestGlucoseReading": "141",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-320",
+		"PatientId": "PAT-79320",
+		"Name": "Ebony Oneill",
+		"UserNumber": "604.928.1978x6561",
+		"Personal Details": {
+			"PatientId": "PAT-79320",
+			"DateOfBirth": "08/01/1984",
+			"Name": "Timothy Garcia",
+			"TreatmentStartDate": "20/05/2025",
+			"LastScanDate": "31/01/2026",
+			"NextScanDate": "27/02/2026",
+			"LastVisitDate": "01/02/2026",
+			"NextVisitDate": "06/03/2026",
+			"Status": "Active",
+			"Gender": "Female",
+			"Height": "159",
+			"Weight": "82",
+			"ContactDetails": {
+				"Phone": "610.726.5901x5895",
+				"EmailAddress": "obush@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "16",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.9",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 8.73,
+				"yCoordinate": 5.44,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "38.3",
+				"Volume": "2.68",
+				"Depth": "0.12",
+				"LatestGlucoseReading": "96",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-795",
+		"PatientId": "PAT-57910",
+		"Name": "Jordan Waller",
+		"UserNumber": "863.791.5308x399",
+		"Personal Details": {
+			"PatientId": "PAT-57910",
+			"DateOfBirth": "25/05/1950",
+			"Name": "Paul Briggs",
+			"TreatmentStartDate": "17/08/2025",
+			"LastScanDate": "28/01/2026",
+			"NextScanDate": "27/02/2026",
+			"LastVisitDate": "22/01/2026",
+			"NextVisitDate": "06/03/2026",
+			"Status": "Warning",
+			"Gender": "Male",
+			"Height": "182",
+			"Weight": "98",
+			"ContactDetails": {
+				"Phone": "534.400.4735x222",
+				"EmailAddress": "deborah02@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "6",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.7",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.83,
+				"yCoordinate": 2.89,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "36.3",
+				"Volume": "2.13",
+				"Depth": "1.03",
+				"LatestGlucoseReading": "109",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-719",
+		"PatientId": "PAT-24836",
+		"Name": "Curtis Robinson",
+		"UserNumber": "(381)418-1193",
+		"Personal Details": {
+			"PatientId": "PAT-24836",
+			"DateOfBirth": "05/07/1953",
+			"Name": "Mercedes Farmer",
+			"TreatmentStartDate": "15/02/2025",
+			"LastScanDate": "11/01/2026",
+			"NextScanDate": "10/02/2026",
+			"LastVisitDate": "22/01/2026",
+			"NextVisitDate": "08/03/2026",
+			"Status": "New",
+			"Gender": "Male",
+			"Height": "191",
+			"Weight": "91",
+			"ContactDetails": {
+				"Phone": "(970)801-0530",
+				"EmailAddress": "morenoroger@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "37",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.3",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 2.87,
+				"yCoordinate": 1.19,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 1.47,
+				"yCoordinate": 8.51,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "37.0",
+				"Volume": "1.24",
+				"Depth": "1.5",
+				"LatestGlucoseReading": "122",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.7",
+				"Volume": "2.93",
+				"Depth": "1.04",
+				"LatestGlucoseReading": "118",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-274",
+		"PatientId": "PAT-14042",
+		"Name": "Nicholas Luna",
+		"UserNumber": "(820)567-3424x0091",
+		"Personal Details": {
+			"PatientId": "PAT-14042",
+			"DateOfBirth": "07/02/1973",
+			"Name": "John Lopez",
+			"TreatmentStartDate": "27/09/2025",
+			"LastScanDate": "10/01/2026",
+			"NextScanDate": "13/02/2026",
+			"LastVisitDate": "24/01/2026",
+			"NextVisitDate": "10/03/2026",
+			"Status": "Active",
+			"Gender": "Male",
+			"Height": "185",
+			"Weight": "76",
+			"ContactDetails": {
+				"Phone": "+1-848-410-8898x2644",
+				"EmailAddress": "rachel62@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "34",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.1",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 8.12,
+				"yCoordinate": 7.73,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "38.4",
+				"Volume": "4.71",
+				"Depth": "0.24",
+				"LatestGlucoseReading": "122",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-808",
+		"PatientId": "PAT-18282",
+		"Name": "Michael Boyle",
+		"UserNumber": "001-709-757-8004",
+		"Personal Details": {
+			"PatientId": "PAT-18282",
+			"DateOfBirth": "28/11/1947",
+			"Name": "Anthony Schmidt",
+			"TreatmentStartDate": "16/09/2025",
+			"LastScanDate": "03/02/2026",
+			"NextScanDate": "17/02/2026",
+			"LastVisitDate": "21/01/2026",
+			"NextVisitDate": "27/02/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "186",
+			"Weight": "90",
+			"ContactDetails": {
+				"Phone": "876.637.0255x341",
+				"EmailAddress": "andrewwilliams@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "20",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.5",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.29,
+				"yCoordinate": 1.66,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 1.27,
+				"yCoordinate": 3.08,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 7.07,
+				"yCoordinate": 0.88,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "38.0",
+				"Volume": "2.37",
+				"Depth": "0.53",
+				"LatestGlucoseReading": "154",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.7",
+				"Volume": "3.13",
+				"Depth": "1.22",
+				"LatestGlucoseReading": "141",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "38.1",
+				"Volume": "2.23",
+				"Depth": "0.75",
+				"LatestGlucoseReading": "110",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-744",
+		"PatientId": "PAT-61882",
+		"Name": "Michael Graham",
+		"UserNumber": "(764)546-4170x9731",
+		"Personal Details": {
+			"PatientId": "PAT-61882",
+			"DateOfBirth": "18/10/1978",
+			"Name": "Kelly Wright",
+			"TreatmentStartDate": "06/08/2025",
+			"LastScanDate": "31/01/2026",
+			"NextScanDate": "15/02/2026",
+			"LastVisitDate": "30/01/2026",
+			"NextVisitDate": "04/03/2026",
+			"Status": "New",
+			"Gender": "Female",
+			"Height": "163",
+			"Weight": "106",
+			"ContactDetails": {
+				"Phone": "296.994.0722",
+				"EmailAddress": "wilsondaisy@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "1",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.1",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 8.16,
+				"yCoordinate": 4.87,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 9.24,
+				"yCoordinate": 6.67,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "36.6",
+				"Volume": "2.52",
+				"Depth": "1.19",
+				"LatestGlucoseReading": "178",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "37.8",
+				"Volume": "2.38",
+				"Depth": "0.34",
+				"LatestGlucoseReading": "142",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-789",
+		"PatientId": "PAT-32746",
+		"Name": "Andrew Thomas",
+		"UserNumber": "489.293.0979x998",
+		"Personal Details": {
+			"PatientId": "PAT-32746",
+			"DateOfBirth": "09/06/1953",
+			"Name": "Bernard Phillips",
+			"TreatmentStartDate": "13/07/2025",
+			"LastScanDate": "26/01/2026",
+			"NextScanDate": "06/02/2026",
+			"LastVisitDate": "26/01/2026",
+			"NextVisitDate": "13/03/2026",
+			"Status": "New",
+			"Gender": "Male",
+			"Height": "173",
+			"Weight": "75",
+			"ContactDetails": {
+				"Phone": "001-307-530-2303",
+				"EmailAddress": "stephen03@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "21",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "6.3",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 2.33,
+				"yCoordinate": 8.61,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 5.18,
+				"yCoordinate": 4.15,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "38.0",
+				"Volume": "4.21",
+				"Depth": "1.1",
+				"LatestGlucoseReading": "138",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "38.0",
+				"Volume": "0.94",
+				"Depth": "0.52",
+				"LatestGlucoseReading": "126",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-385",
+		"PatientId": "PAT-60612",
+		"Name": "Paul Brooks",
+		"UserNumber": "(537)583-8073x6099",
+		"Personal Details": {
+			"PatientId": "PAT-60612",
+			"DateOfBirth": "29/10/1955",
+			"Name": "Erika Landry",
+			"TreatmentStartDate": "17/11/2025",
+			"LastScanDate": "05/02/2026",
+			"NextScanDate": "21/02/2026",
+			"LastVisitDate": "25/01/2026",
+			"NextVisitDate": "26/02/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "189",
+			"Weight": "74",
+			"ContactDetails": {
+				"Phone": "+1-974-993-3852x19397",
+				"EmailAddress": "sarahmoon@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "13",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.3",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 2.28,
+				"yCoordinate": 2.73,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 7.6,
+				"yCoordinate": 7.14,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "38.4",
+				"Volume": "2.87",
+				"Depth": "0.71",
+				"LatestGlucoseReading": "156",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "37.9",
+				"Volume": "0.67",
+				"Depth": "0.57",
+				"LatestGlucoseReading": "174",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-673",
+		"PatientId": "PAT-8142",
+		"Name": "Brittney Lee",
+		"UserNumber": "(316)455-3404",
+		"Personal Details": {
+			"PatientId": "PAT-8142",
+			"DateOfBirth": "04/09/1961",
+			"Name": "Sharon George",
+			"TreatmentStartDate": "03/09/2025",
+			"LastScanDate": "22/01/2026",
+			"NextScanDate": "01/03/2026",
+			"LastVisitDate": "21/01/2026",
+			"NextVisitDate": "08/03/2026",
+			"Status": "New",
+			"Gender": "Male",
+			"Height": "183",
+			"Weight": "74",
+			"ContactDetails": {
+				"Phone": "944-471-8167x24096",
+				"EmailAddress": "lsmith@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "31",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.1",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 0.16,
+				"yCoordinate": 3.2,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 4.81,
+				"yCoordinate": 2.39,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "36.5",
+				"Volume": "1.35",
+				"Depth": "1.02",
+				"LatestGlucoseReading": "102",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.2",
+				"Volume": "3.56",
+				"Depth": "0.57",
+				"LatestGlucoseReading": "115",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-696",
+		"PatientId": "PAT-70623",
+		"Name": "Thomas Silva",
+		"UserNumber": "303-446-1941",
+		"Personal Details": {
+			"PatientId": "PAT-70623",
+			"DateOfBirth": "11/02/1984",
+			"Name": "Lisa Christian DDS",
+			"TreatmentStartDate": "02/03/2025",
+			"LastScanDate": "31/01/2026",
+			"NextScanDate": "07/03/2026",
+			"LastVisitDate": "04/02/2026",
+			"NextVisitDate": "12/03/2026",
+			"Status": "In-Active",
+			"Gender": "Female",
+			"Height": "184",
+			"Weight": "52",
+			"ContactDetails": {
+				"Phone": "(544)293-7505x1450",
+				"EmailAddress": "hollyshaw@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "29",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.7",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 5.04,
+				"yCoordinate": 8.22,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 7.58,
+				"yCoordinate": 3.83,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 10,
+				"UlcerTemperature": "36.9",
+				"Volume": "1.91",
+				"Depth": "1.43",
+				"LatestGlucoseReading": "123",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "36.9",
+				"Volume": "2.14",
+				"Depth": "0.25",
+				"LatestGlucoseReading": "144",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-352",
+		"PatientId": "PAT-25700",
+		"Name": "Deborah Turner",
+		"UserNumber": "(326)846-2043",
+		"Personal Details": {
+			"PatientId": "PAT-25700",
+			"DateOfBirth": "24/03/1960",
+			"Name": "Brian Richardson",
+			"TreatmentStartDate": "11/11/2025",
+			"LastScanDate": "21/01/2026",
+			"NextScanDate": "22/02/2026",
+			"LastVisitDate": "27/01/2026",
+			"NextVisitDate": "06/03/2026",
+			"Status": "New",
+			"Gender": "Female",
+			"Height": "189",
+			"Weight": "65",
+			"ContactDetails": {
+				"Phone": "(850)751-0613x3883",
+				"EmailAddress": "kristen76@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "6",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.1",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 9.32,
+				"yCoordinate": 4.99,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "36.6",
+				"Volume": "0.98",
+				"Depth": "1.09",
+				"LatestGlucoseReading": "171",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-493",
+		"PatientId": "PAT-40562",
+		"Name": "Karen Coleman",
+		"UserNumber": "8842934291",
+		"Personal Details": {
+			"PatientId": "PAT-40562",
+			"DateOfBirth": "13/09/1969",
+			"Name": "Victor English",
+			"TreatmentStartDate": "21/06/2025",
+			"LastScanDate": "24/01/2026",
+			"NextScanDate": "07/03/2026",
+			"LastVisitDate": "05/02/2026",
+			"NextVisitDate": "01/03/2026",
+			"Status": "Warning",
+			"Gender": "Male",
+			"Height": "169",
+			"Weight": "67",
+			"ContactDetails": {
+				"Phone": "(918)571-5653x6004",
+				"EmailAddress": "larrywolfe@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "30",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "6.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 4.23,
+				"yCoordinate": 5.17,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 6,
+				"UlcerTemperature": "37.1",
+				"Volume": "1.07",
+				"Depth": "0.26",
+				"LatestGlucoseReading": "130",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-352",
+		"PatientId": "PAT-29285",
+		"Name": "Austin Fowler",
+		"UserNumber": "381-632-7828x36397",
+		"Personal Details": {
+			"PatientId": "PAT-29285",
+			"DateOfBirth": "25/09/1974",
+			"Name": "Stephanie King",
+			"TreatmentStartDate": "02/11/2025",
+			"LastScanDate": "29/01/2026",
+			"NextScanDate": "13/02/2026",
+			"LastVisitDate": "29/01/2026",
+			"NextVisitDate": "13/03/2026",
+			"Status": "Active",
+			"Gender": "Female",
+			"Height": "154",
+			"Weight": "64",
+			"ContactDetails": {
+				"Phone": "842-749-2625x3897",
+				"EmailAddress": "tdavis@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "4",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.0",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.26,
+				"yCoordinate": 7.11,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 8.4,
+				"yCoordinate": 9.24,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "38.0",
+				"Volume": "3.46",
+				"Depth": "1.29",
+				"LatestGlucoseReading": "127",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.3",
+				"Volume": "4.41",
+				"Depth": "0.49",
+				"LatestGlucoseReading": "145",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-524",
+		"PatientId": "PAT-46923",
+		"Name": "Susan Kim",
+		"UserNumber": "(340)491-5857x8531",
+		"Personal Details": {
+			"PatientId": "PAT-46923",
+			"DateOfBirth": "19/02/1952",
+			"Name": "Donald Reynolds",
+			"TreatmentStartDate": "17/09/2025",
+			"LastScanDate": "16/01/2026",
+			"NextScanDate": "22/02/2026",
+			"LastVisitDate": "24/01/2026",
+			"NextVisitDate": "04/03/2026",
+			"Status": "Active",
+			"Gender": "Male",
+			"Height": "199",
+			"Weight": "110",
+			"ContactDetails": {
+				"Phone": "001-846-980-4772x97738",
+				"EmailAddress": "goldenpeter@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "13",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "6.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 7.89,
+				"yCoordinate": 4.56,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 5.44,
+				"yCoordinate": 8.36,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 6,
+				"UlcerTemperature": "37.7",
+				"Volume": "1.54",
+				"Depth": "0.31",
+				"LatestGlucoseReading": "147",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "36.2",
+				"Volume": "4.66",
+				"Depth": "1.14",
+				"LatestGlucoseReading": "127",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-711",
+		"PatientId": "PAT-22692",
+		"Name": "Samantha Mitchell",
+		"UserNumber": "+1-651-997-6128x22731",
+		"Personal Details": {
+			"PatientId": "PAT-22692",
+			"DateOfBirth": "04/11/1967",
+			"Name": "Anthony Small",
+			"TreatmentStartDate": "10/09/2025",
+			"LastScanDate": "11/01/2026",
+			"NextScanDate": "22/02/2026",
+			"LastVisitDate": "04/02/2026",
+			"NextVisitDate": "28/02/2026",
+			"Status": "Active",
+			"Gender": "Female",
+			"Height": "184",
+			"Weight": "95",
+			"ContactDetails": {
+				"Phone": "(495)480-0709",
+				"EmailAddress": "rodneykey@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "33",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.6",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 5.84,
+				"yCoordinate": 5.53,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.0",
+				"Volume": "1.53",
+				"Depth": "0.35",
+				"LatestGlucoseReading": "178",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-649",
+		"PatientId": "PAT-63746",
+		"Name": "Gabriel Gutierrez",
+		"UserNumber": "(339)882-8999x109",
+		"Personal Details": {
+			"PatientId": "PAT-63746",
+			"DateOfBirth": "17/11/1975",
+			"Name": "Heather Cooke",
+			"TreatmentStartDate": "26/10/2025",
+			"LastScanDate": "23/01/2026",
+			"NextScanDate": "26/02/2026",
+			"LastVisitDate": "20/01/2026",
+			"NextVisitDate": "27/02/2026",
+			"Status": "Active",
+			"Gender": "Female",
+			"Height": "161",
+			"Weight": "103",
+			"ContactDetails": {
+				"Phone": "766.510.7708",
+				"EmailAddress": "jennifer89@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "7",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "10.0",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 6.81,
+				"yCoordinate": 6.39,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "36.3",
+				"Volume": "4.47",
+				"Depth": "1.48",
+				"LatestGlucoseReading": "110",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-218",
+		"PatientId": "PAT-98246",
+		"Name": "Tammy Velez",
+		"UserNumber": "(796)790-7602x06143",
+		"Personal Details": {
+			"PatientId": "PAT-98246",
+			"DateOfBirth": "25/12/1948",
+			"Name": "Courtney Fernandez",
+			"TreatmentStartDate": "31/01/2026",
+			"LastScanDate": "10/01/2026",
+			"NextScanDate": "25/02/2026",
+			"LastVisitDate": "18/01/2026",
+			"NextVisitDate": "04/03/2026",
+			"Status": "In-Active",
+			"Gender": "Male",
+			"Height": "153",
+			"Weight": "104",
+			"ContactDetails": {
+				"Phone": "001-828-377-1376x98680",
+				"EmailAddress": "xwilliams@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "32",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.93,
+				"yCoordinate": 6.34,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.4",
+				"Volume": "1.52",
+				"Depth": "0.6",
+				"LatestGlucoseReading": "173",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-492",
+		"PatientId": "PAT-29318",
+		"Name": "Matthew Rodgers",
+		"UserNumber": "3038887914",
+		"Personal Details": {
+			"PatientId": "PAT-29318",
+			"DateOfBirth": "25/10/1973",
+			"Name": "Alyssa Robertson",
+			"TreatmentStartDate": "28/09/2025",
+			"LastScanDate": "01/02/2026",
+			"NextScanDate": "18/02/2026",
+			"LastVisitDate": "30/01/2026",
+			"NextVisitDate": "15/03/2026",
+			"Status": "In-Active",
+			"Gender": "Female",
+			"Height": "156",
+			"Weight": "53",
+			"ContactDetails": {
+				"Phone": "(746)388-1476",
+				"EmailAddress": "frenchsean@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "23",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.6",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 6.41,
+				"yCoordinate": 9.83,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "37.7",
+				"Volume": "3.56",
+				"Depth": "1.38",
+				"LatestGlucoseReading": "105",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-350",
+		"PatientId": "PAT-24428",
+		"Name": "Tonya Erickson",
+		"UserNumber": "+1-672-953-0407",
+		"Personal Details": {
+			"PatientId": "PAT-24428",
+			"DateOfBirth": "21/07/1983",
+			"Name": "Sherri Lee",
+			"TreatmentStartDate": "04/08/2025",
+			"LastScanDate": "16/01/2026",
+			"NextScanDate": "24/02/2026",
+			"LastVisitDate": "03/02/2026",
+			"NextVisitDate": "09/03/2026",
+			"Status": "New",
+			"Gender": "Female",
+			"Height": "153",
+			"Weight": "104",
+			"ContactDetails": {
+				"Phone": "001-242-264-2820",
+				"EmailAddress": "leah34@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "15",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 5.81,
+				"yCoordinate": 7.87,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 6,
+				"UlcerTemperature": "36.5",
+				"Volume": "3.12",
+				"Depth": "1.34",
+				"LatestGlucoseReading": "99",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-334",
+		"PatientId": "PAT-21914",
+		"Name": "Jessica Mcgrath",
+		"UserNumber": "(524)256-5284x15025",
+		"Personal Details": {
+			"PatientId": "PAT-21914",
+			"DateOfBirth": "05/12/1977",
+			"Name": "Sandra Baker",
+			"TreatmentStartDate": "03/10/2025",
+			"LastScanDate": "20/01/2026",
+			"NextScanDate": "12/02/2026",
+			"LastVisitDate": "03/02/2026",
+			"NextVisitDate": "09/03/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "191",
+			"Weight": "101",
+			"ContactDetails": {
+				"Phone": "302.842.8798",
+				"EmailAddress": "jlane@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "30",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.3",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 5.25,
+				"yCoordinate": 7.09,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "37.9",
+				"Volume": "3.47",
+				"Depth": "0.43",
+				"LatestGlucoseReading": "111",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-359",
+		"PatientId": "PAT-65280",
+		"Name": "Carla Gibson",
+		"UserNumber": "(746)460-6179x92900",
+		"Personal Details": {
+			"PatientId": "PAT-65280",
+			"DateOfBirth": "18/08/1970",
+			"Name": "Jeremy Martinez",
+			"TreatmentStartDate": "07/10/2025",
+			"LastScanDate": "15/01/2026",
+			"NextScanDate": "06/02/2026",
+			"LastVisitDate": "17/01/2026",
+			"NextVisitDate": "02/03/2026",
+			"Status": "In-Active",
+			"Gender": "Female",
+			"Height": "156",
+			"Weight": "89",
+			"ContactDetails": {
+				"Phone": "6682070725",
+				"EmailAddress": "glawrence@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "28",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "6.0",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 9.31,
+				"yCoordinate": 5.01,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 7.57,
+				"yCoordinate": 6.42,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "37.9",
+				"Volume": "3.98",
+				"Depth": "0.9",
+				"LatestGlucoseReading": "107",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "37.4",
+				"Volume": "2.78",
+				"Depth": "1.12",
+				"LatestGlucoseReading": "94",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-250",
+		"PatientId": "PAT-10751",
+		"Name": "Donna Mendoza",
+		"UserNumber": "274.243.8910x3525",
+		"Personal Details": {
+			"PatientId": "PAT-10751",
+			"DateOfBirth": "01/04/1981",
+			"Name": "James Schroeder",
+			"TreatmentStartDate": "03/06/2025",
+			"LastScanDate": "09/01/2026",
+			"NextScanDate": "09/02/2026",
+			"LastVisitDate": "20/01/2026",
+			"NextVisitDate": "09/03/2026",
+			"Status": "New",
+			"Gender": "Female",
+			"Height": "180",
+			"Weight": "110",
+			"ContactDetails": {
+				"Phone": "7344987491",
+				"EmailAddress": "gingram@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "6",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.5",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 4.14,
+				"yCoordinate": 6.82,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 5.67,
+				"yCoordinate": 9.21,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 5.64,
+				"yCoordinate": 5.09,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "37.3",
+				"Volume": "1.02",
+				"Depth": "0.91",
+				"LatestGlucoseReading": "150",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "37.3",
+				"Volume": "2.97",
+				"Depth": "0.72",
+				"LatestGlucoseReading": "134",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "38.4",
+				"Volume": "3.45",
+				"Depth": "1.15",
+				"LatestGlucoseReading": "100",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-649",
+		"PatientId": "PAT-81534",
+		"Name": "Matthew Silva",
+		"UserNumber": "737.776.3257",
+		"Personal Details": {
+			"PatientId": "PAT-81534",
+			"DateOfBirth": "01/06/1954",
+			"Name": "Robert Williams",
+			"TreatmentStartDate": "05/06/2025",
+			"LastScanDate": "12/01/2026",
+			"NextScanDate": "10/02/2026",
+			"LastVisitDate": "04/02/2026",
+			"NextVisitDate": "14/03/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "177",
+			"Weight": "64",
+			"ContactDetails": {
+				"Phone": "6142932579",
+				"EmailAddress": "brian65@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "10",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.1",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 1.49,
+				"yCoordinate": 0.55,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 4.99,
+				"yCoordinate": 0.79,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 6.88,
+				"yCoordinate": 4.2,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "37.4",
+				"Volume": "3.65",
+				"Depth": "1.11",
+				"LatestGlucoseReading": "145",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "36.8",
+				"Volume": "2.86",
+				"Depth": "1.13",
+				"LatestGlucoseReading": "163",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "36.0",
+				"Volume": "2.59",
+				"Depth": "1.14",
+				"LatestGlucoseReading": "163",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-230",
+		"PatientId": "PAT-99355",
+		"Name": "Rodney Green",
+		"UserNumber": "001-731-357-4756x5883",
+		"Personal Details": {
+			"PatientId": "PAT-99355",
+			"DateOfBirth": "04/10/1961",
+			"Name": "John Nelson",
+			"TreatmentStartDate": "15/07/2025",
+			"LastScanDate": "01/02/2026",
+			"NextScanDate": "27/02/2026",
+			"LastVisitDate": "26/01/2026",
+			"NextVisitDate": "15/03/2026",
+			"Status": "New",
+			"Gender": "Male",
+			"Height": "191",
+			"Weight": "77",
+			"ContactDetails": {
+				"Phone": "942-992-0270x4623",
+				"EmailAddress": "velasquezcathy@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "38",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.5",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 4.86,
+				"yCoordinate": 2.32,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 10,
+				"UlcerTemperature": "38.3",
+				"Volume": "1.48",
+				"Depth": "0.14",
+				"LatestGlucoseReading": "116",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-274",
+		"PatientId": "PAT-18457",
+		"Name": "Francisco Howard",
+		"UserNumber": "001-646-286-3738",
+		"Personal Details": {
+			"PatientId": "PAT-18457",
+			"DateOfBirth": "01/11/1950",
+			"Name": "Catherine Warner",
+			"TreatmentStartDate": "07/09/2025",
+			"LastScanDate": "21/01/2026",
+			"NextScanDate": "20/02/2026",
+			"LastVisitDate": "30/01/2026",
+			"NextVisitDate": "01/03/2026",
+			"Status": "Active",
+			"Gender": "Male",
+			"Height": "183",
+			"Weight": "78",
+			"ContactDetails": {
+				"Phone": "(399)414-0376x025",
+				"EmailAddress": "lisa52@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "39",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.7",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 2.68,
+				"yCoordinate": 0.95,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 7.32,
+				"yCoordinate": 4.08,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "38.3",
+				"Volume": "3.45",
+				"Depth": "1.41",
+				"LatestGlucoseReading": "161",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.6",
+				"Volume": "2.53",
+				"Depth": "0.94",
+				"LatestGlucoseReading": "125",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-890",
+		"PatientId": "PAT-95420",
+		"Name": "Charlotte Whitehead",
+		"UserNumber": "6958221563",
+		"Personal Details": {
+			"PatientId": "PAT-95420",
+			"DateOfBirth": "23/04/1960",
+			"Name": "Joseph Garcia",
+			"TreatmentStartDate": "17/12/2025",
+			"LastScanDate": "29/01/2026",
+			"NextScanDate": "12/02/2026",
+			"LastVisitDate": "29/01/2026",
+			"NextVisitDate": "10/03/2026",
+			"Status": "New",
+			"Gender": "Female",
+			"Height": "182",
+			"Weight": "51",
+			"ContactDetails": {
+				"Phone": "+1-493-458-6712",
+				"EmailAddress": "mckeealexander@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "11",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.1",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 0.2,
+				"yCoordinate": 8.5,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 4.8,
+				"yCoordinate": 5.72,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 5.09,
+				"yCoordinate": 3.78,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.8",
+				"Volume": "1.01",
+				"Depth": "0.43",
+				"LatestGlucoseReading": "98",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.2",
+				"Volume": "1.41",
+				"Depth": "1.11",
+				"LatestGlucoseReading": "113",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "37.9",
+				"Volume": "1.19",
+				"Depth": "0.52",
+				"LatestGlucoseReading": "91",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-638",
+		"PatientId": "PAT-91542",
+		"Name": "Natalie Wagner",
+		"UserNumber": "001-361-938-2005x202",
+		"Personal Details": {
+			"PatientId": "PAT-91542",
+			"DateOfBirth": "29/03/1958",
+			"Name": "Tina Krueger",
+			"TreatmentStartDate": "30/10/2025",
+			"LastScanDate": "18/01/2026",
+			"NextScanDate": "22/02/2026",
+			"LastVisitDate": "23/01/2026",
+			"NextVisitDate": "11/03/2026",
+			"Status": "In-Active",
+			"Gender": "Male",
+			"Height": "169",
+			"Weight": "95",
+			"ContactDetails": {
+				"Phone": "+1-721-455-4561x5540",
+				"EmailAddress": "mariah51@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "19",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "6.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.32,
+				"yCoordinate": 1.94,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "36.1",
+				"Volume": "0.84",
+				"Depth": "0.76",
+				"LatestGlucoseReading": "175",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-869",
+		"PatientId": "PAT-49979",
+		"Name": "Elizabeth Espinoza",
+		"UserNumber": "755-619-4640x85972",
+		"Personal Details": {
+			"PatientId": "PAT-49979",
+			"DateOfBirth": "10/10/1948",
+			"Name": "Andrea Sanders",
+			"TreatmentStartDate": "18/11/2025",
+			"LastScanDate": "19/01/2026",
+			"NextScanDate": "16/02/2026",
+			"LastVisitDate": "20/01/2026",
+			"NextVisitDate": "27/02/2026",
+			"Status": "Active",
+			"Gender": "Male",
+			"Height": "155",
+			"Weight": "82",
+			"ContactDetails": {
+				"Phone": "708-962-1457x98878",
+				"EmailAddress": "pearsoncharlene@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "14",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.3",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 6.89,
+				"yCoordinate": 3.88,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 1.85,
+				"yCoordinate": 5.45,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 7.79,
+				"yCoordinate": 0.68,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.2",
+				"Volume": "4.06",
+				"Depth": "0.76",
+				"LatestGlucoseReading": "141",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "36.2",
+				"Volume": "4.28",
+				"Depth": "0.85",
+				"LatestGlucoseReading": "125",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "36.2",
+				"Volume": "2.84",
+				"Depth": "1.33",
+				"LatestGlucoseReading": "114",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-630",
+		"PatientId": "PAT-41025",
+		"Name": "Anthony Castro",
+		"UserNumber": "690-206-5145x7817",
+		"Personal Details": {
+			"PatientId": "PAT-41025",
+			"DateOfBirth": "07/02/1980",
+			"Name": "Tina Mckay",
+			"TreatmentStartDate": "15/03/2025",
+			"LastScanDate": "04/02/2026",
+			"NextScanDate": "15/02/2026",
+			"LastVisitDate": "29/01/2026",
+			"NextVisitDate": "17/03/2026",
+			"Status": "In-Active",
+			"Gender": "Female",
+			"Height": "187",
+			"Weight": "72",
+			"ContactDetails": {
+				"Phone": "001-691-288-9560x80343",
+				"EmailAddress": "lindagraham@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "32",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 8.1,
+				"yCoordinate": 0.76,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "36.1",
+				"Volume": "2.92",
+				"Depth": "0.18",
+				"LatestGlucoseReading": "99",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-865",
+		"PatientId": "PAT-70086",
+		"Name": "Bailey Brooks",
+		"UserNumber": "+1-420-746-0174x21611",
+		"Personal Details": {
+			"PatientId": "PAT-70086",
+			"DateOfBirth": "12/07/1952",
+			"Name": "Charles Morgan",
+			"TreatmentStartDate": "06/07/2025",
+			"LastScanDate": "27/01/2026",
+			"NextScanDate": "01/03/2026",
+			"LastVisitDate": "29/01/2026",
+			"NextVisitDate": "05/03/2026",
+			"Status": "In-Active",
+			"Gender": "Male",
+			"Height": "161",
+			"Weight": "110",
+			"ContactDetails": {
+				"Phone": "(402)507-8314",
+				"EmailAddress": "robertnewton@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "9",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 5.3,
+				"yCoordinate": 6.31,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 2.28,
+				"yCoordinate": 6.97,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 5.01,
+				"yCoordinate": 1.05,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 10,
+				"UlcerTemperature": "36.0",
+				"Volume": "1.38",
+				"Depth": "0.18",
+				"LatestGlucoseReading": "128",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "36.0",
+				"Volume": "0.7",
+				"Depth": "1.11",
+				"LatestGlucoseReading": "94",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "36.9",
+				"Volume": "3.05",
+				"Depth": "0.74",
+				"LatestGlucoseReading": "151",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-699",
+		"PatientId": "PAT-65156",
+		"Name": "Kristen Koch",
+		"UserNumber": "7159726616",
+		"Personal Details": {
+			"PatientId": "PAT-65156",
+			"DateOfBirth": "22/10/1953",
+			"Name": "Tim Collins",
+			"TreatmentStartDate": "29/09/2025",
+			"LastScanDate": "21/01/2026",
+			"NextScanDate": "20/02/2026",
+			"LastVisitDate": "29/01/2026",
+			"NextVisitDate": "13/03/2026",
+			"Status": "Active",
+			"Gender": "Female",
+			"Height": "163",
+			"Weight": "102",
+			"ContactDetails": {
+				"Phone": "(392)376-1215",
+				"EmailAddress": "vwagner@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "18",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "6.1",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 8.71,
+				"yCoordinate": 8.76,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 1.47,
+				"yCoordinate": 8.47,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "38.3",
+				"Volume": "4.56",
+				"Depth": "0.47",
+				"LatestGlucoseReading": "105",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 6,
+				"UlcerTemperature": "37.8",
+				"Volume": "2.86",
+				"Depth": "0.52",
+				"LatestGlucoseReading": "168",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-897",
+		"PatientId": "PAT-79820",
+		"Name": "Dominique Kelly",
+		"UserNumber": "833-960-2254x3851",
+		"Personal Details": {
+			"PatientId": "PAT-79820",
+			"DateOfBirth": "09/11/1982",
+			"Name": "April Hendricks",
+			"TreatmentStartDate": "17/09/2025",
+			"LastScanDate": "21/01/2026",
+			"NextScanDate": "24/02/2026",
+			"LastVisitDate": "31/01/2026",
+			"NextVisitDate": "28/02/2026",
+			"Status": "New",
+			"Gender": "Male",
+			"Height": "189",
+			"Weight": "107",
+			"ContactDetails": {
+				"Phone": "+1-503-366-8034x415",
+				"EmailAddress": "turnerlinda@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "24",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.2",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 9.5,
+				"yCoordinate": 3.6,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 1.8,
+				"yCoordinate": 7.22,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "36.7",
+				"Volume": "4.6",
+				"Depth": "0.99",
+				"LatestGlucoseReading": "172",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.2",
+				"Volume": "2.85",
+				"Depth": "0.44",
+				"LatestGlucoseReading": "102",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-147",
+		"PatientId": "PAT-32795",
+		"Name": "Heather Ramos",
+		"UserNumber": "(572)775-1708x414",
+		"Personal Details": {
+			"PatientId": "PAT-32795",
+			"DateOfBirth": "25/04/1967",
+			"Name": "Christopher Hill",
+			"TreatmentStartDate": "07/05/2025",
+			"LastScanDate": "27/01/2026",
+			"NextScanDate": "19/02/2026",
+			"LastVisitDate": "23/01/2026",
+			"NextVisitDate": "15/03/2026",
+			"Status": "Warning",
+			"Gender": "Male",
+			"Height": "153",
+			"Weight": "99",
+			"ContactDetails": {
+				"Phone": "001-462-449-6803",
+				"EmailAddress": "brandon73@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "39",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.2",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 8.29,
+				"yCoordinate": 6.09,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "36.1",
+				"Volume": "4.02",
+				"Depth": "1.29",
+				"LatestGlucoseReading": "179",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-635",
+		"PatientId": "PAT-33100",
+		"Name": "Jeff Andersen",
+		"UserNumber": "806.659.7037",
+		"Personal Details": {
+			"PatientId": "PAT-33100",
+			"DateOfBirth": "16/06/1971",
+			"Name": "Kimberly Johnson",
+			"TreatmentStartDate": "04/12/2025",
+			"LastScanDate": "23/01/2026",
+			"NextScanDate": "08/02/2026",
+			"LastVisitDate": "22/01/2026",
+			"NextVisitDate": "05/03/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "180",
+			"Weight": "86",
+			"ContactDetails": {
+				"Phone": "001-268-711-9281x82614",
+				"EmailAddress": "zachary64@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "33",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.6",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 2.83,
+				"yCoordinate": 2.62,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "38.3",
+				"Volume": "3.48",
+				"Depth": "0.57",
+				"LatestGlucoseReading": "166",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-286",
+		"PatientId": "PAT-10138",
+		"Name": "Barbara Harris",
+		"UserNumber": "(461)996-8514",
+		"Personal Details": {
+			"PatientId": "PAT-10138",
+			"DateOfBirth": "11/05/1975",
+			"Name": "Allison Garcia",
+			"TreatmentStartDate": "26/06/2025",
+			"LastScanDate": "27/01/2026",
+			"NextScanDate": "06/03/2026",
+			"LastVisitDate": "28/01/2026",
+			"NextVisitDate": "06/03/2026",
+			"Status": "New",
+			"Gender": "Male",
+			"Height": "192",
+			"Weight": "55",
+			"ContactDetails": {
+				"Phone": "+1-808-617-4169x60708",
+				"EmailAddress": "kellykevin@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "18",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.1",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.45,
+				"yCoordinate": 8.23,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 0.88,
+				"yCoordinate": 7.45,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 7.34,
+				"yCoordinate": 9.67,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "36.4",
+				"Volume": "2.4",
+				"Depth": "0.52",
+				"LatestGlucoseReading": "173",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "37.8",
+				"Volume": "3.01",
+				"Depth": "1.28",
+				"LatestGlucoseReading": "168",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "36.4",
+				"Volume": "4.39",
+				"Depth": "0.89",
+				"LatestGlucoseReading": "178",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-651",
+		"PatientId": "PAT-86720",
+		"Name": "Randall Brown",
+		"UserNumber": "001-696-943-6669x8709",
+		"Personal Details": {
+			"PatientId": "PAT-86720",
+			"DateOfBirth": "21/07/1978",
+			"Name": "Jerome Gray",
+			"TreatmentStartDate": "16/07/2025",
+			"LastScanDate": "08/01/2026",
+			"NextScanDate": "10/02/2026",
+			"LastVisitDate": "26/01/2026",
+			"NextVisitDate": "28/02/2026",
+			"Status": "New",
+			"Gender": "Female",
+			"Height": "164",
+			"Weight": "96",
+			"ContactDetails": {
+				"Phone": "623.875.3835",
+				"EmailAddress": "jennifer17@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "34",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "10.0",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 5.51,
+				"yCoordinate": 8.89,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.7",
+				"Volume": "4.81",
+				"Depth": "1.08",
+				"LatestGlucoseReading": "153",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-620",
+		"PatientId": "PAT-4118",
+		"Name": "Jose Nelson",
+		"UserNumber": "(947)284-1602x893",
+		"Personal Details": {
+			"PatientId": "PAT-4118",
+			"DateOfBirth": "15/04/1970",
+			"Name": "Miss Deanna Mathis",
+			"TreatmentStartDate": "04/03/2025",
+			"LastScanDate": "02/02/2026",
+			"NextScanDate": "04/03/2026",
+			"LastVisitDate": "03/02/2026",
+			"NextVisitDate": "04/03/2026",
+			"Status": "In-Active",
+			"Gender": "Male",
+			"Height": "172",
+			"Weight": "103",
+			"ContactDetails": {
+				"Phone": "(387)455-8659x2093",
+				"EmailAddress": "brenda45@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "27",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.5",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 6.67,
+				"yCoordinate": 1.74,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "37.5",
+				"Volume": "1.61",
+				"Depth": "0.98",
+				"LatestGlucoseReading": "177",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-441",
+		"PatientId": "PAT-68098",
+		"Name": "Eric Hernandez",
+		"UserNumber": "776-766-8700x17963",
+		"Personal Details": {
+			"PatientId": "PAT-68098",
+			"DateOfBirth": "04/09/1954",
+			"Name": "James Martinez",
+			"TreatmentStartDate": "03/12/2025",
+			"LastScanDate": "30/01/2026",
+			"NextScanDate": "21/02/2026",
+			"LastVisitDate": "27/01/2026",
+			"NextVisitDate": "01/03/2026",
+			"Status": "Warning",
+			"Gender": "Male",
+			"Height": "182",
+			"Weight": "93",
+			"ContactDetails": {
+				"Phone": "208-533-3987",
+				"EmailAddress": "cannonisabel@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "23",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.6",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 6.78,
+				"yCoordinate": 5.08,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 2.76,
+				"yCoordinate": 2.96,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.6",
+				"Volume": "2.05",
+				"Depth": "0.9",
+				"LatestGlucoseReading": "178",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "36.3",
+				"Volume": "2.53",
+				"Depth": "0.17",
+				"LatestGlucoseReading": "116",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-592",
+		"PatientId": "PAT-56422",
+		"Name": "Jose Simpson",
+		"UserNumber": "(261)307-0195",
+		"Personal Details": {
+			"PatientId": "PAT-56422",
+			"DateOfBirth": "15/07/1972",
+			"Name": "Laurie Nguyen",
+			"TreatmentStartDate": "03/06/2025",
+			"LastScanDate": "04/02/2026",
+			"NextScanDate": "17/02/2026",
+			"LastVisitDate": "22/01/2026",
+			"NextVisitDate": "09/03/2026",
+			"Status": "In-Active",
+			"Gender": "Female",
+			"Height": "195",
+			"Weight": "72",
+			"ContactDetails": {
+				"Phone": "3496423401",
+				"EmailAddress": "alanbranch@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "2",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.99,
+				"yCoordinate": 5.95,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 5.89,
+				"yCoordinate": 4.78,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 6.8,
+				"yCoordinate": 5.17,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.1",
+				"Volume": "2.09",
+				"Depth": "1.4",
+				"LatestGlucoseReading": "162",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "36.9",
+				"Volume": "3.93",
+				"Depth": "1.26",
+				"LatestGlucoseReading": "98",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 10,
+				"UlcerTemperature": "38.1",
+				"Volume": "1.91",
+				"Depth": "1.28",
+				"LatestGlucoseReading": "167",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-765",
+		"PatientId": "PAT-27353",
+		"Name": "Sheri Little",
+		"UserNumber": "318.549.9334x0866",
+		"Personal Details": {
+			"PatientId": "PAT-27353",
+			"DateOfBirth": "20/06/1955",
+			"Name": "Matthew Johnson",
+			"TreatmentStartDate": "04/05/2025",
+			"LastScanDate": "08/01/2026",
+			"NextScanDate": "25/02/2026",
+			"LastVisitDate": "21/01/2026",
+			"NextVisitDate": "27/02/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "167",
+			"Weight": "115",
+			"ContactDetails": {
+				"Phone": "+1-593-358-6222",
+				"EmailAddress": "judith93@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "12",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.5",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 9.27,
+				"yCoordinate": 2.86,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 2.26,
+				"yCoordinate": 0.11,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 6.25,
+				"yCoordinate": 0.48,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 10,
+				"UlcerTemperature": "36.4",
+				"Volume": "3.16",
+				"Depth": "1.22",
+				"LatestGlucoseReading": "99",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "36.6",
+				"Volume": "1.22",
+				"Depth": "1.35",
+				"LatestGlucoseReading": "166",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "36.6",
+				"Volume": "3.11",
+				"Depth": "0.9",
+				"LatestGlucoseReading": "160",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-956",
+		"PatientId": "PAT-47411",
+		"Name": "Elizabeth Smith",
+		"UserNumber": "001-642-687-8176x82622",
+		"Personal Details": {
+			"PatientId": "PAT-47411",
+			"DateOfBirth": "30/01/1968",
+			"Name": "Alexandra Welch DDS",
+			"TreatmentStartDate": "19/04/2025",
+			"LastScanDate": "12/01/2026",
+			"NextScanDate": "26/02/2026",
+			"LastVisitDate": "28/01/2026",
+			"NextVisitDate": "09/03/2026",
+			"Status": "New",
+			"Gender": "Female",
+			"Height": "174",
+			"Weight": "73",
+			"ContactDetails": {
+				"Phone": "444-243-4705",
+				"EmailAddress": "paulbailey@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "34",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.9",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 8.51,
+				"yCoordinate": 6.57,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "36.2",
+				"Volume": "1.18",
+				"Depth": "1.23",
+				"LatestGlucoseReading": "111",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-859",
+		"PatientId": "PAT-30607",
+		"Name": "Craig Martin",
+		"UserNumber": "(356)710-8992",
+		"Personal Details": {
+			"PatientId": "PAT-30607",
+			"DateOfBirth": "21/11/1947",
+			"Name": "Alexis Hunt",
+			"TreatmentStartDate": "03/07/2025",
+			"LastScanDate": "14/01/2026",
+			"NextScanDate": "01/03/2026",
+			"LastVisitDate": "04/02/2026",
+			"NextVisitDate": "13/03/2026",
+			"Status": "Active",
+			"Gender": "Male",
+			"Height": "178",
+			"Weight": "56",
+			"ContactDetails": {
+				"Phone": "(848)262-8268x5404",
+				"EmailAddress": "marie66@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "13",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.0",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 1.23,
+				"yCoordinate": 6.64,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 7.13,
+				"yCoordinate": 8.69,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 9.51,
+				"yCoordinate": 4.31,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "36.1",
+				"Volume": "1.73",
+				"Depth": "1.34",
+				"LatestGlucoseReading": "142",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "37.2",
+				"Volume": "3.53",
+				"Depth": "0.46",
+				"LatestGlucoseReading": "171",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "37.3",
+				"Volume": "2.31",
+				"Depth": "1.38",
+				"LatestGlucoseReading": "151",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-632",
+		"PatientId": "PAT-19929",
+		"Name": "Vincent Ramos",
+		"UserNumber": "275-966-2551x4000",
+		"Personal Details": {
+			"PatientId": "PAT-19929",
+			"DateOfBirth": "03/11/1951",
+			"Name": "Sarah Roberts",
+			"TreatmentStartDate": "09/09/2025",
+			"LastScanDate": "18/01/2026",
+			"NextScanDate": "24/02/2026",
+			"LastVisitDate": "22/01/2026",
+			"NextVisitDate": "27/02/2026",
+			"Status": "Warning",
+			"Gender": "Male",
+			"Height": "190",
+			"Weight": "70",
+			"ContactDetails": {
+				"Phone": "+1-951-716-0720x6735",
+				"EmailAddress": "mccallmichael@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "40",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 5.46,
+				"yCoordinate": 8.84,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 7.34,
+				"yCoordinate": 1.91,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 0.99,
+				"yCoordinate": 0.73,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 10,
+				"UlcerTemperature": "36.2",
+				"Volume": "3.69",
+				"Depth": "0.39",
+				"LatestGlucoseReading": "118",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "37.3",
+				"Volume": "0.75",
+				"Depth": "0.46",
+				"LatestGlucoseReading": "148",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "36.7",
+				"Volume": "1.54",
+				"Depth": "0.35",
+				"LatestGlucoseReading": "166",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-693",
+		"PatientId": "PAT-15028",
+		"Name": "Stephen Ortiz",
+		"UserNumber": "619-937-3788x6743",
+		"Personal Details": {
+			"PatientId": "PAT-15028",
+			"DateOfBirth": "15/12/1968",
+			"Name": "Jeffrey Marshall",
+			"TreatmentStartDate": "03/03/2025",
+			"LastScanDate": "29/01/2026",
+			"NextScanDate": "19/02/2026",
+			"LastVisitDate": "31/01/2026",
+			"NextVisitDate": "02/03/2026",
+			"Status": "Warning",
+			"Gender": "Male",
+			"Height": "158",
+			"Weight": "94",
+			"ContactDetails": {
+				"Phone": "+1-959-362-5978x578",
+				"EmailAddress": "shawnrodriguez@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "27",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.9",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.5,
+				"yCoordinate": 7.41,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 10,
+				"UlcerTemperature": "36.6",
+				"Volume": "3.42",
+				"Depth": "0.62",
+				"LatestGlucoseReading": "135",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-107",
+		"PatientId": "PAT-86769",
+		"Name": "Thomas Kelly",
+		"UserNumber": "+1-293-374-1742x8025",
+		"Personal Details": {
+			"PatientId": "PAT-86769",
+			"DateOfBirth": "20/01/1971",
+			"Name": "Martin Keller",
+			"TreatmentStartDate": "21/10/2025",
+			"LastScanDate": "12/01/2026",
+			"NextScanDate": "07/02/2026",
+			"LastVisitDate": "26/01/2026",
+			"NextVisitDate": "03/03/2026",
+			"Status": "New",
+			"Gender": "Female",
+			"Height": "193",
+			"Weight": "96",
+			"ContactDetails": {
+				"Phone": "+1-787-603-5290x3595",
+				"EmailAddress": "barnesteresa@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "22",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 2.33,
+				"yCoordinate": 8.25,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 5.21,
+				"yCoordinate": 3.92,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "37.4",
+				"Volume": "3.01",
+				"Depth": "1.27",
+				"LatestGlucoseReading": "155",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "36.9",
+				"Volume": "1.73",
+				"Depth": "0.23",
+				"LatestGlucoseReading": "175",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-974",
+		"PatientId": "PAT-46555",
+		"Name": "Joanna Hill",
+		"UserNumber": "+1-497-812-5057x9481",
+		"Personal Details": {
+			"PatientId": "PAT-46555",
+			"DateOfBirth": "04/02/1983",
+			"Name": "Robert Brown",
+			"TreatmentStartDate": "29/05/2025",
+			"LastScanDate": "08/01/2026",
+			"NextScanDate": "02/03/2026",
+			"LastVisitDate": "27/01/2026",
+			"NextVisitDate": "03/03/2026",
+			"Status": "In-Active",
+			"Gender": "Male",
+			"Height": "158",
+			"Weight": "82",
+			"ContactDetails": {
+				"Phone": "5907078600",
+				"EmailAddress": "tararodriguez@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "26",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.0",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 1.46,
+				"yCoordinate": 4.7,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 0.94,
+				"yCoordinate": 0.68,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 9.86,
+				"yCoordinate": 6.36,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "38.0",
+				"Volume": "3.02",
+				"Depth": "0.56",
+				"LatestGlucoseReading": "165",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.7",
+				"Volume": "3.1",
+				"Depth": "0.31",
+				"LatestGlucoseReading": "111",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.4",
+				"Volume": "4.9",
+				"Depth": "0.27",
+				"LatestGlucoseReading": "109",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-565",
+		"PatientId": "PAT-51189",
+		"Name": "Evan Wells",
+		"UserNumber": "852-697-5965x029",
+		"Personal Details": {
+			"PatientId": "PAT-51189",
+			"DateOfBirth": "20/12/1976",
+			"Name": "Jessica Lyons",
+			"TreatmentStartDate": "22/11/2025",
+			"LastScanDate": "09/01/2026",
+			"NextScanDate": "18/02/2026",
+			"LastVisitDate": "21/01/2026",
+			"NextVisitDate": "08/03/2026",
+			"Status": "Active",
+			"Gender": "Female",
+			"Height": "197",
+			"Weight": "74",
+			"ContactDetails": {
+				"Phone": "2434706202",
+				"EmailAddress": "smithkurt@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "15",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.2",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 1.34,
+				"yCoordinate": 3.56,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 3.6,
+				"yCoordinate": 3.98,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 0.2,
+				"yCoordinate": 9.82,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "37.6",
+				"Volume": "1.19",
+				"Depth": "0.8",
+				"LatestGlucoseReading": "176",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.2",
+				"Volume": "3.33",
+				"Depth": "0.22",
+				"LatestGlucoseReading": "114",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "36.8",
+				"Volume": "3.15",
+				"Depth": "1.38",
+				"LatestGlucoseReading": "117",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-800",
+		"PatientId": "PAT-60832",
+		"Name": "Anna Mills",
+		"UserNumber": "(933)998-7485x0315",
+		"Personal Details": {
+			"PatientId": "PAT-60832",
+			"DateOfBirth": "09/09/1974",
+			"Name": "Jessica Charles",
+			"TreatmentStartDate": "10/12/2025",
+			"LastScanDate": "23/01/2026",
+			"NextScanDate": "09/02/2026",
+			"LastVisitDate": "19/01/2026",
+			"NextVisitDate": "12/03/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "175",
+			"Weight": "71",
+			"ContactDetails": {
+				"Phone": "664.326.0277x25665",
+				"EmailAddress": "wisedavid@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "23",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 5.44,
+				"yCoordinate": 6.9,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "37.8",
+				"Volume": "1.95",
+				"Depth": "0.32",
+				"LatestGlucoseReading": "167",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-753",
+		"PatientId": "PAT-88962",
+		"Name": "Erica Adkins",
+		"UserNumber": "(971)921-0280x565",
+		"Personal Details": {
+			"PatientId": "PAT-88962",
+			"DateOfBirth": "18/02/1982",
+			"Name": "Sandra Stanley",
+			"TreatmentStartDate": "26/10/2025",
+			"LastScanDate": "10/01/2026",
+			"NextScanDate": "10/02/2026",
+			"LastVisitDate": "24/01/2026",
+			"NextVisitDate": "17/03/2026",
+			"Status": "Active",
+			"Gender": "Male",
+			"Height": "181",
+			"Weight": "101",
+			"ContactDetails": {
+				"Phone": "515.858.4587x3703",
+				"EmailAddress": "chandarlene@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "34",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.2",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 5.5,
+				"yCoordinate": 4.12,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 1.01,
+				"yCoordinate": 7.25,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "38.0",
+				"Volume": "3.77",
+				"Depth": "0.7",
+				"LatestGlucoseReading": "114",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "36.7",
+				"Volume": "1.46",
+				"Depth": "1.34",
+				"LatestGlucoseReading": "128",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-369",
+		"PatientId": "PAT-30369",
+		"Name": "Tyler Carroll MD",
+		"UserNumber": "+1-381-401-8967",
+		"Personal Details": {
+			"PatientId": "PAT-30369",
+			"DateOfBirth": "11/09/1985",
+			"Name": "Aaron Spencer",
+			"TreatmentStartDate": "02/12/2025",
+			"LastScanDate": "21/01/2026",
+			"NextScanDate": "07/02/2026",
+			"LastVisitDate": "31/01/2026",
+			"NextVisitDate": "27/02/2026",
+			"Status": "New",
+			"Gender": "Female",
+			"Height": "194",
+			"Weight": "54",
+			"ContactDetails": {
+				"Phone": "645.917.6288x62570",
+				"EmailAddress": "madison86@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "19",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "6.9",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 8.6,
+				"yCoordinate": 3.79,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 1.77,
+				"yCoordinate": 8.0,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 2.76,
+				"yCoordinate": 2.01,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "37.3",
+				"Volume": "3.82",
+				"Depth": "1.16",
+				"LatestGlucoseReading": "101",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "38.2",
+				"Volume": "2.53",
+				"Depth": "1.26",
+				"LatestGlucoseReading": "97",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "38.3",
+				"Volume": "1.18",
+				"Depth": "1.27",
+				"LatestGlucoseReading": "156",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-665",
+		"PatientId": "PAT-61767",
+		"Name": "Melissa Taylor",
+		"UserNumber": "(454)321-4661x3534",
+		"Personal Details": {
+			"PatientId": "PAT-61767",
+			"DateOfBirth": "15/04/1945",
+			"Name": "Amy Hart",
+			"TreatmentStartDate": "17/12/2025",
+			"LastScanDate": "30/01/2026",
+			"NextScanDate": "04/03/2026",
+			"LastVisitDate": "20/01/2026",
+			"NextVisitDate": "04/03/2026",
+			"Status": "New",
+			"Gender": "Female",
+			"Height": "164",
+			"Weight": "60",
+			"ContactDetails": {
+				"Phone": "369-983-5834x44669",
+				"EmailAddress": "martincassie@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "36",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 7.27,
+				"yCoordinate": 8.16,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 6,
+				"UlcerTemperature": "36.9",
+				"Volume": "3.83",
+				"Depth": "0.65",
+				"LatestGlucoseReading": "91",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-577",
+		"PatientId": "PAT-27723",
+		"Name": "Isabella Morrison",
+		"UserNumber": "233.667.5686",
+		"Personal Details": {
+			"PatientId": "PAT-27723",
+			"DateOfBirth": "25/05/1961",
+			"Name": "Adrian Mcmahon",
+			"TreatmentStartDate": "14/11/2025",
+			"LastScanDate": "17/01/2026",
+			"NextScanDate": "17/02/2026",
+			"LastVisitDate": "04/02/2026",
+			"NextVisitDate": "14/03/2026",
+			"Status": "In-Active",
+			"Gender": "Female",
+			"Height": "176",
+			"Weight": "99",
+			"ContactDetails": {
+				"Phone": "555-865-4173x91569",
+				"EmailAddress": "xyoung@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "21",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 2.16,
+				"yCoordinate": 9.43,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 9.77,
+				"yCoordinate": 6.64,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 1.4,
+				"yCoordinate": 4.07,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "37.6",
+				"Volume": "3.56",
+				"Depth": "0.23",
+				"LatestGlucoseReading": "128",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "37.0",
+				"Volume": "4.69",
+				"Depth": "1.3",
+				"LatestGlucoseReading": "104",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "37.2",
+				"Volume": "1.21",
+				"Depth": "0.82",
+				"LatestGlucoseReading": "108",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-111",
+		"PatientId": "PAT-64049",
+		"Name": "James Woodard",
+		"UserNumber": "5549544524",
+		"Personal Details": {
+			"PatientId": "PAT-64049",
+			"DateOfBirth": "07/05/1980",
+			"Name": "Jennifer Clark",
+			"TreatmentStartDate": "15/04/2025",
+			"LastScanDate": "17/01/2026",
+			"NextScanDate": "15/02/2026",
+			"LastVisitDate": "24/01/2026",
+			"NextVisitDate": "12/03/2026",
+			"Status": "In-Active",
+			"Gender": "Male",
+			"Height": "164",
+			"Weight": "117",
+			"ContactDetails": {
+				"Phone": "210-793-9327x0305",
+				"EmailAddress": "suzanne93@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "32",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 4.87,
+				"yCoordinate": 1.57,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 7.49,
+				"yCoordinate": 4.37,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "38.4",
+				"Volume": "3.01",
+				"Depth": "0.42",
+				"LatestGlucoseReading": "136",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "37.5",
+				"Volume": "2.6",
+				"Depth": "0.44",
+				"LatestGlucoseReading": "136",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-556",
+		"PatientId": "PAT-99756",
+		"Name": "Andrea Anderson",
+		"UserNumber": "967.966.6246",
+		"Personal Details": {
+			"PatientId": "PAT-99756",
+			"DateOfBirth": "29/03/1977",
+			"Name": "Paul Robinson",
+			"TreatmentStartDate": "28/08/2025",
+			"LastScanDate": "11/01/2026",
+			"NextScanDate": "28/02/2026",
+			"LastVisitDate": "23/01/2026",
+			"NextVisitDate": "16/03/2026",
+			"Status": "Active",
+			"Gender": "Female",
+			"Height": "160",
+			"Weight": "106",
+			"ContactDetails": {
+				"Phone": "+1-820-445-7960",
+				"EmailAddress": "osantiago@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "11",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.2",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 9.26,
+				"yCoordinate": 2.39,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 7.09,
+				"yCoordinate": 7.61,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 9.5,
+				"yCoordinate": 9.42,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "36.2",
+				"Volume": "2.81",
+				"Depth": "0.63",
+				"LatestGlucoseReading": "109",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.7",
+				"Volume": "4.87",
+				"Depth": "1.21",
+				"LatestGlucoseReading": "91",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 6,
+				"UlcerTemperature": "37.7",
+				"Volume": "2.61",
+				"Depth": "0.14",
+				"LatestGlucoseReading": "106",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-912",
+		"PatientId": "PAT-23905",
+		"Name": "Mary Ward",
+		"UserNumber": "9073320733",
+		"Personal Details": {
+			"PatientId": "PAT-23905",
+			"DateOfBirth": "24/04/1985",
+			"Name": "Bailey Manning",
+			"TreatmentStartDate": "28/04/2025",
+			"LastScanDate": "20/01/2026",
+			"NextScanDate": "05/03/2026",
+			"LastVisitDate": "17/01/2026",
+			"NextVisitDate": "10/03/2026",
+			"Status": "Warning",
+			"Gender": "Male",
+			"Height": "183",
+			"Weight": "53",
+			"ContactDetails": {
+				"Phone": "449-460-5692",
+				"EmailAddress": "bolson@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "16",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.2",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 4.22,
+				"yCoordinate": 2.02,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 6,
+				"UlcerTemperature": "37.7",
+				"Volume": "3.7",
+				"Depth": "1.08",
+				"LatestGlucoseReading": "140",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-518",
+		"PatientId": "PAT-19215",
+		"Name": "Peggy Sparks",
+		"UserNumber": "479-626-4548",
+		"Personal Details": {
+			"PatientId": "PAT-19215",
+			"DateOfBirth": "18/05/1968",
+			"Name": "Mr. James Sanders",
+			"TreatmentStartDate": "18/07/2025",
+			"LastScanDate": "23/01/2026",
+			"NextScanDate": "14/02/2026",
+			"LastVisitDate": "30/01/2026",
+			"NextVisitDate": "04/03/2026",
+			"Status": "In-Active",
+			"Gender": "Female",
+			"Height": "200",
+			"Weight": "77",
+			"ContactDetails": {
+				"Phone": "+1-340-481-0795",
+				"EmailAddress": "kristy81@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "21",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 8.87,
+				"yCoordinate": 3.34,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 7.87,
+				"yCoordinate": 6.29,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 2.36,
+				"yCoordinate": 2.39,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.9",
+				"Volume": "4.22",
+				"Depth": "0.18",
+				"LatestGlucoseReading": "138",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "38.3",
+				"Volume": "3.0",
+				"Depth": "0.87",
+				"LatestGlucoseReading": "129",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.7",
+				"Volume": "2.34",
+				"Depth": "1.12",
+				"LatestGlucoseReading": "153",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-338",
+		"PatientId": "PAT-12489",
+		"Name": "Mitchell Scott",
+		"UserNumber": "(919)555-0246x645",
+		"Personal Details": {
+			"PatientId": "PAT-12489",
+			"DateOfBirth": "18/09/1985",
+			"Name": "Mr. William Poole",
+			"TreatmentStartDate": "22/01/2026",
+			"LastScanDate": "17/01/2026",
+			"NextScanDate": "16/02/2026",
+			"LastVisitDate": "28/01/2026",
+			"NextVisitDate": "14/03/2026",
+			"Status": "Active",
+			"Gender": "Female",
+			"Height": "198",
+			"Weight": "90",
+			"ContactDetails": {
+				"Phone": "905.703.9470x181",
+				"EmailAddress": "butlerolivia@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "36",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 5.66,
+				"yCoordinate": 7.64,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "36.4",
+				"Volume": "3.94",
+				"Depth": "0.16",
+				"LatestGlucoseReading": "118",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-284",
+		"PatientId": "PAT-38832",
+		"Name": "Sarah Dennis",
+		"UserNumber": "(590)252-5135x9768",
+		"Personal Details": {
+			"PatientId": "PAT-38832",
+			"DateOfBirth": "29/04/1971",
+			"Name": "Craig Adkins",
+			"TreatmentStartDate": "20/04/2025",
+			"LastScanDate": "10/01/2026",
+			"NextScanDate": "28/02/2026",
+			"LastVisitDate": "24/01/2026",
+			"NextVisitDate": "12/03/2026",
+			"Status": "Warning",
+			"Gender": "Male",
+			"Height": "171",
+			"Weight": "52",
+			"ContactDetails": {
+				"Phone": "(989)949-3498x911",
+				"EmailAddress": "obrienvirginia@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "33",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.6",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 6.49,
+				"yCoordinate": 9.67,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "37.4",
+				"Volume": "4.36",
+				"Depth": "1.17",
+				"LatestGlucoseReading": "171",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-375",
+		"PatientId": "PAT-2144",
+		"Name": "Emily Miller",
+		"UserNumber": "001-956-357-6132x67537",
+		"Personal Details": {
+			"PatientId": "PAT-2144",
+			"DateOfBirth": "05/05/1971",
+			"Name": "Leah Barnes",
+			"TreatmentStartDate": "07/07/2025",
+			"LastScanDate": "28/01/2026",
+			"NextScanDate": "01/03/2026",
+			"LastVisitDate": "21/01/2026",
+			"NextVisitDate": "14/03/2026",
+			"Status": "In-Active",
+			"Gender": "Female",
+			"Height": "186",
+			"Weight": "110",
+			"ContactDetails": {
+				"Phone": "471-802-6264",
+				"EmailAddress": "sjones@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "17",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.1",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.66,
+				"yCoordinate": 0.29,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 1.63,
+				"yCoordinate": 5.26,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "38.3",
+				"Volume": "0.87",
+				"Depth": "1.39",
+				"LatestGlucoseReading": "143",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.8",
+				"Volume": "0.94",
+				"Depth": "1.02",
+				"LatestGlucoseReading": "153",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-280",
+		"PatientId": "PAT-76282",
+		"Name": "Heather Porter",
+		"UserNumber": "001-596-231-1690",
+		"Personal Details": {
+			"PatientId": "PAT-76282",
+			"DateOfBirth": "05/05/1956",
+			"Name": "Micheal Dean",
+			"TreatmentStartDate": "19/07/2025",
+			"LastScanDate": "11/01/2026",
+			"NextScanDate": "14/02/2026",
+			"LastVisitDate": "05/02/2026",
+			"NextVisitDate": "08/03/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "155",
+			"Weight": "108",
+			"ContactDetails": {
+				"Phone": "845.284.7093",
+				"EmailAddress": "brooksaustin@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "26",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.7",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.7,
+				"yCoordinate": 2.49,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.6",
+				"Volume": "3.89",
+				"Depth": "1.03",
+				"LatestGlucoseReading": "167",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-468",
+		"PatientId": "PAT-16783",
+		"Name": "Ashley Smith",
+		"UserNumber": "363.434.4458",
+		"Personal Details": {
+			"PatientId": "PAT-16783",
+			"DateOfBirth": "24/01/1983",
+			"Name": "Alicia Robertson",
+			"TreatmentStartDate": "10/03/2025",
+			"LastScanDate": "03/02/2026",
+			"NextScanDate": "17/02/2026",
+			"LastVisitDate": "03/02/2026",
+			"NextVisitDate": "08/03/2026",
+			"Status": "Active",
+			"Gender": "Male",
+			"Height": "162",
+			"Weight": "87",
+			"ContactDetails": {
+				"Phone": "001-641-828-7878x40684",
+				"EmailAddress": "mark34@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "39",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.9",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 5.22,
+				"yCoordinate": 7.72,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 2.76,
+				"yCoordinate": 9.36,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "37.8",
+				"Volume": "1.13",
+				"Depth": "1.38",
+				"LatestGlucoseReading": "156",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 10,
+				"UlcerTemperature": "36.3",
+				"Volume": "2.16",
+				"Depth": "0.87",
+				"LatestGlucoseReading": "96",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-513",
+		"PatientId": "PAT-74347",
+		"Name": "Blake Holmes",
+		"UserNumber": "001-757-358-4657x17400",
+		"Personal Details": {
+			"PatientId": "PAT-74347",
+			"DateOfBirth": "15/09/1985",
+			"Name": "Cody Gregory MD",
+			"TreatmentStartDate": "12/05/2025",
+			"LastScanDate": "13/01/2026",
+			"NextScanDate": "03/03/2026",
+			"LastVisitDate": "31/01/2026",
+			"NextVisitDate": "03/03/2026",
+			"Status": "New",
+			"Gender": "Female",
+			"Height": "154",
+			"Weight": "52",
+			"ContactDetails": {
+				"Phone": "276.922.1021x1932",
+				"EmailAddress": "eduardo90@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "29",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 5.36,
+				"yCoordinate": 8.99,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 6.14,
+				"yCoordinate": 6.21,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 0.98,
+				"yCoordinate": 5.24,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "36.5",
+				"Volume": "1.06",
+				"Depth": "1.05",
+				"LatestGlucoseReading": "180",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 6,
+				"UlcerTemperature": "37.2",
+				"Volume": "3.76",
+				"Depth": "0.33",
+				"LatestGlucoseReading": "160",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "36.6",
+				"Volume": "4.56",
+				"Depth": "1.23",
+				"LatestGlucoseReading": "106",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-153",
+		"PatientId": "PAT-45796",
+		"Name": "Nicholas Smith",
+		"UserNumber": "001-388-536-4742x723",
+		"Personal Details": {
+			"PatientId": "PAT-45796",
+			"DateOfBirth": "04/05/1947",
+			"Name": "Allison Miller",
+			"TreatmentStartDate": "09/03/2025",
+			"LastScanDate": "17/01/2026",
+			"NextScanDate": "14/02/2026",
+			"LastVisitDate": "22/01/2026",
+			"NextVisitDate": "02/03/2026",
+			"Status": "In-Active",
+			"Gender": "Male",
+			"Height": "178",
+			"Weight": "84",
+			"ContactDetails": {
+				"Phone": "545.658.6539",
+				"EmailAddress": "martindana@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "27",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 4.58,
+				"yCoordinate": 7.45,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 7.66,
+				"yCoordinate": 3.36,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 8.02,
+				"yCoordinate": 3.84,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.5",
+				"Volume": "1.63",
+				"Depth": "0.21",
+				"LatestGlucoseReading": "165",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "38.1",
+				"Volume": "4.66",
+				"Depth": "0.91",
+				"LatestGlucoseReading": "162",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "37.2",
+				"Volume": "3.03",
+				"Depth": "0.56",
+				"LatestGlucoseReading": "148",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-960",
+		"PatientId": "PAT-56481",
+		"Name": "Makayla Lawrence",
+		"UserNumber": "7529881584",
+		"Personal Details": {
+			"PatientId": "PAT-56481",
+			"DateOfBirth": "01/12/1956",
+			"Name": "Kenneth Guzman",
+			"TreatmentStartDate": "21/04/2025",
+			"LastScanDate": "21/01/2026",
+			"NextScanDate": "22/02/2026",
+			"LastVisitDate": "20/01/2026",
+			"NextVisitDate": "01/03/2026",
+			"Status": "Active",
+			"Gender": "Male",
+			"Height": "169",
+			"Weight": "79",
+			"ContactDetails": {
+				"Phone": "712.450.6606x51414",
+				"EmailAddress": "stevenvillanueva@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "1",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 9.13,
+				"yCoordinate": 1.56,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 9.16,
+				"yCoordinate": 8.25,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 0.55,
+				"yCoordinate": 1.06,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "36.0",
+				"Volume": "4.52",
+				"Depth": "1.02",
+				"LatestGlucoseReading": "117",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "37.1",
+				"Volume": "1.09",
+				"Depth": "0.21",
+				"LatestGlucoseReading": "102",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "37.6",
+				"Volume": "4.49",
+				"Depth": "0.47",
+				"LatestGlucoseReading": "169",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-401",
+		"PatientId": "PAT-90081",
+		"Name": "Carla Sandoval",
+		"UserNumber": "+1-672-253-4036x156",
+		"Personal Details": {
+			"PatientId": "PAT-90081",
+			"DateOfBirth": "12/03/1968",
+			"Name": "Kristen Sanchez",
+			"TreatmentStartDate": "14/05/2025",
+			"LastScanDate": "25/01/2026",
+			"NextScanDate": "03/03/2026",
+			"LastVisitDate": "22/01/2026",
+			"NextVisitDate": "11/03/2026",
+			"Status": "Warning",
+			"Gender": "Male",
+			"Height": "163",
+			"Weight": "81",
+			"ContactDetails": {
+				"Phone": "(804)659-5620x45382",
+				"EmailAddress": "david67@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "17",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 9.35,
+				"yCoordinate": 0.94,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 5.91,
+				"yCoordinate": 7.71,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 8.39,
+				"yCoordinate": 0.35,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "37.5",
+				"Volume": "2.53",
+				"Depth": "0.95",
+				"LatestGlucoseReading": "91",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "38.5",
+				"Volume": "0.84",
+				"Depth": "0.14",
+				"LatestGlucoseReading": "95",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 6,
+				"UlcerTemperature": "37.0",
+				"Volume": "4.57",
+				"Depth": "0.29",
+				"LatestGlucoseReading": "141",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-165",
+		"PatientId": "PAT-92163",
+		"Name": "Sandra Gibson",
+		"UserNumber": "001-240-535-8642x555",
+		"Personal Details": {
+			"PatientId": "PAT-92163",
+			"DateOfBirth": "20/04/1984",
+			"Name": "Eric Webb",
+			"TreatmentStartDate": "21/02/2025",
+			"LastScanDate": "19/01/2026",
+			"NextScanDate": "05/03/2026",
+			"LastVisitDate": "19/01/2026",
+			"NextVisitDate": "16/03/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "175",
+			"Weight": "105",
+			"ContactDetails": {
+				"Phone": "703-774-3601x17080",
+				"EmailAddress": "hendersonsandra@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "29",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.5",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 7.48,
+				"yCoordinate": 9.32,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 1.25,
+				"yCoordinate": 4.91,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "36.3",
+				"Volume": "3.36",
+				"Depth": "0.8",
+				"LatestGlucoseReading": "148",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 6,
+				"UlcerTemperature": "38.0",
+				"Volume": "0.8",
+				"Depth": "0.45",
+				"LatestGlucoseReading": "176",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-507",
+		"PatientId": "PAT-82299",
+		"Name": "Ashley Jones",
+		"UserNumber": "628-247-9253",
+		"Personal Details": {
+			"PatientId": "PAT-82299",
+			"DateOfBirth": "13/03/1956",
+			"Name": "Jenna Miller",
+			"TreatmentStartDate": "21/03/2025",
+			"LastScanDate": "25/01/2026",
+			"NextScanDate": "17/02/2026",
+			"LastVisitDate": "28/01/2026",
+			"NextVisitDate": "27/02/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "171",
+			"Weight": "55",
+			"ContactDetails": {
+				"Phone": "273-764-7402x019",
+				"EmailAddress": "eddie17@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "12",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.1",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 7.32,
+				"yCoordinate": 2.68,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "36.5",
+				"Volume": "4.07",
+				"Depth": "0.94",
+				"LatestGlucoseReading": "125",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-176",
+		"PatientId": "PAT-81627",
+		"Name": "Rebecca Williams",
+		"UserNumber": "899.418.0546x1501",
+		"Personal Details": {
+			"PatientId": "PAT-81627",
+			"DateOfBirth": "26/06/1958",
+			"Name": "Nicholas Calderon",
+			"TreatmentStartDate": "22/11/2025",
+			"LastScanDate": "04/02/2026",
+			"NextScanDate": "12/02/2026",
+			"LastVisitDate": "31/01/2026",
+			"NextVisitDate": "28/02/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "164",
+			"Weight": "65",
+			"ContactDetails": {
+				"Phone": "8656408232",
+				"EmailAddress": "sharonwilson@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "37",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 8.36,
+				"yCoordinate": 5.67,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 3.0,
+				"yCoordinate": 5.68,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 0.17,
+				"yCoordinate": 7.14,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "36.0",
+				"Volume": "3.97",
+				"Depth": "0.88",
+				"LatestGlucoseReading": "130",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "38.0",
+				"Volume": "4.3",
+				"Depth": "0.23",
+				"LatestGlucoseReading": "118",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "36.6",
+				"Volume": "3.15",
+				"Depth": "1.46",
+				"LatestGlucoseReading": "124",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-444",
+		"PatientId": "PAT-61837",
+		"Name": "Shane Mcknight",
+		"UserNumber": "+1-374-366-6897x087",
+		"Personal Details": {
+			"PatientId": "PAT-61837",
+			"DateOfBirth": "04/11/1958",
+			"Name": "Samantha Armstrong",
+			"TreatmentStartDate": "29/05/2025",
+			"LastScanDate": "17/01/2026",
+			"NextScanDate": "06/02/2026",
+			"LastVisitDate": "05/02/2026",
+			"NextVisitDate": "14/03/2026",
+			"Status": "Warning",
+			"Gender": "Male",
+			"Height": "187",
+			"Weight": "76",
+			"ContactDetails": {
+				"Phone": "427-508-3512",
+				"EmailAddress": "dhess@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "34",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.3",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.73,
+				"yCoordinate": 1.85,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 7.36,
+				"yCoordinate": 0.46,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 10,
+				"UlcerTemperature": "37.2",
+				"Volume": "4.37",
+				"Depth": "1.31",
+				"LatestGlucoseReading": "106",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "37.1",
+				"Volume": "1.71",
+				"Depth": "0.72",
+				"LatestGlucoseReading": "145",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-129",
+		"PatientId": "PAT-46239",
+		"Name": "Allison Hernandez",
+		"UserNumber": "739-649-0862",
+		"Personal Details": {
+			"PatientId": "PAT-46239",
+			"DateOfBirth": "26/05/1954",
+			"Name": "Roger Robertson",
+			"TreatmentStartDate": "07/02/2025",
+			"LastScanDate": "04/02/2026",
+			"NextScanDate": "10/02/2026",
+			"LastVisitDate": "02/02/2026",
+			"NextVisitDate": "15/03/2026",
+			"Status": "In-Active",
+			"Gender": "Male",
+			"Height": "167",
+			"Weight": "108",
+			"ContactDetails": {
+				"Phone": "348.698.0660",
+				"EmailAddress": "michele63@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "34",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 9.38,
+				"yCoordinate": 6.65,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 2.59,
+				"yCoordinate": 0.35,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "36.6",
+				"Volume": "3.23",
+				"Depth": "0.64",
+				"LatestGlucoseReading": "155",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "37.0",
+				"Volume": "1.61",
+				"Depth": "1.35",
+				"LatestGlucoseReading": "155",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-981",
+		"PatientId": "PAT-52348",
+		"Name": "Brianna Aguilar",
+		"UserNumber": "+1-298-970-0521x2939",
+		"Personal Details": {
+			"PatientId": "PAT-52348",
+			"DateOfBirth": "21/08/1981",
+			"Name": "Jessica Smith",
+			"TreatmentStartDate": "02/11/2025",
+			"LastScanDate": "02/02/2026",
+			"NextScanDate": "05/03/2026",
+			"LastVisitDate": "29/01/2026",
+			"NextVisitDate": "09/03/2026",
+			"Status": "New",
+			"Gender": "Male",
+			"Height": "192",
+			"Weight": "50",
+			"ContactDetails": {
+				"Phone": "735-620-6867",
+				"EmailAddress": "npope@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "6",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 9.93,
+				"yCoordinate": 0.51,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "37.7",
+				"Volume": "4.63",
+				"Depth": "1.09",
+				"LatestGlucoseReading": "154",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-703",
+		"PatientId": "PAT-21220",
+		"Name": "Debbie Walters",
+		"UserNumber": "001-568-634-1362",
+		"Personal Details": {
+			"PatientId": "PAT-21220",
+			"DateOfBirth": "05/11/1949",
+			"Name": "Kimberly Thompson",
+			"TreatmentStartDate": "31/10/2025",
+			"LastScanDate": "24/01/2026",
+			"NextScanDate": "17/02/2026",
+			"LastVisitDate": "23/01/2026",
+			"NextVisitDate": "10/03/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "166",
+			"Weight": "60",
+			"ContactDetails": {
+				"Phone": "+1-853-311-2119x52547",
+				"EmailAddress": "gthomas@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "26",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.3",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 9.34,
+				"yCoordinate": 7.17,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "37.9",
+				"Volume": "1.93",
+				"Depth": "0.72",
+				"LatestGlucoseReading": "174",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-807",
+		"PatientId": "PAT-46997",
+		"Name": "Andrea Daniels",
+		"UserNumber": "001-302-225-6067x1928",
+		"Personal Details": {
+			"PatientId": "PAT-46997",
+			"DateOfBirth": "13/08/1959",
+			"Name": "Lance Simon",
+			"TreatmentStartDate": "10/12/2025",
+			"LastScanDate": "31/01/2026",
+			"NextScanDate": "16/02/2026",
+			"LastVisitDate": "28/01/2026",
+			"NextVisitDate": "01/03/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "172",
+			"Weight": "119",
+			"ContactDetails": {
+				"Phone": "(808)730-9221",
+				"EmailAddress": "matthewfranco@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "33",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.6",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 0.48,
+				"yCoordinate": 1.44,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 9.63,
+				"yCoordinate": 7.43,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "37.8",
+				"Volume": "2.42",
+				"Depth": "0.28",
+				"LatestGlucoseReading": "105",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "36.4",
+				"Volume": "3.63",
+				"Depth": "0.99",
+				"LatestGlucoseReading": "164",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-888",
+		"PatientId": "PAT-53936",
+		"Name": "Lacey Evans",
+		"UserNumber": "(261)765-5511",
+		"Personal Details": {
+			"PatientId": "PAT-53936",
+			"DateOfBirth": "10/09/1972",
+			"Name": "Joseph Jones",
+			"TreatmentStartDate": "27/03/2025",
+			"LastScanDate": "22/01/2026",
+			"NextScanDate": "26/02/2026",
+			"LastVisitDate": "17/01/2026",
+			"NextVisitDate": "01/03/2026",
+			"Status": "In-Active",
+			"Gender": "Male",
+			"Height": "163",
+			"Weight": "92",
+			"ContactDetails": {
+				"Phone": "725.960.4760x19418",
+				"EmailAddress": "xchan@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "31",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 2.55,
+				"yCoordinate": 4.07,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 6,
+				"UlcerTemperature": "36.7",
+				"Volume": "2.99",
+				"Depth": "0.84",
+				"LatestGlucoseReading": "158",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-440",
+		"PatientId": "PAT-46744",
+		"Name": "Kelly King",
+		"UserNumber": "+1-692-487-2054x8860",
+		"Personal Details": {
+			"PatientId": "PAT-46744",
+			"DateOfBirth": "21/01/1958",
+			"Name": "David Newton",
+			"TreatmentStartDate": "20/05/2025",
+			"LastScanDate": "03/02/2026",
+			"NextScanDate": "12/02/2026",
+			"LastVisitDate": "22/01/2026",
+			"NextVisitDate": "11/03/2026",
+			"Status": "New",
+			"Gender": "Female",
+			"Height": "159",
+			"Weight": "80",
+			"ContactDetails": {
+				"Phone": "747-952-0784x707",
+				"EmailAddress": "parkertroy@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "9",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "6.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.7,
+				"yCoordinate": 6.21,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 7.45,
+				"yCoordinate": 5.82,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 2,
+				"UlcerTemperature": "37.5",
+				"Volume": "1.14",
+				"Depth": "1.19",
+				"LatestGlucoseReading": "152",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.1",
+				"Volume": "2.29",
+				"Depth": "0.35",
+				"LatestGlucoseReading": "113",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-110",
+		"PatientId": "PAT-89876",
+		"Name": "Robert Stewart",
+		"UserNumber": "001-336-711-4781x37106",
+		"Personal Details": {
+			"PatientId": "PAT-89876",
+			"DateOfBirth": "27/04/1980",
+			"Name": "Cindy Lewis",
+			"TreatmentStartDate": "24/12/2025",
+			"LastScanDate": "05/02/2026",
+			"NextScanDate": "06/02/2026",
+			"LastVisitDate": "19/01/2026",
+			"NextVisitDate": "14/03/2026",
+			"Status": "New",
+			"Gender": "Female",
+			"Height": "174",
+			"Weight": "85",
+			"ContactDetails": {
+				"Phone": "+1-222-457-0013",
+				"EmailAddress": "simpsonjulia@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "12",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 5.68,
+				"yCoordinate": 6.07,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 4.67,
+				"yCoordinate": 2.9,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 7.29,
+				"yCoordinate": 7.24,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "38.0",
+				"Volume": "0.98",
+				"Depth": "1.39",
+				"LatestGlucoseReading": "148",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 10,
+				"UlcerTemperature": "38.0",
+				"Volume": "2.13",
+				"Depth": "0.98",
+				"LatestGlucoseReading": "121",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.4",
+				"Volume": "1.2",
+				"Depth": "1.33",
+				"LatestGlucoseReading": "145",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-872",
+		"PatientId": "PAT-74368",
+		"Name": "Steve Baker",
+		"UserNumber": "(384)421-2112",
+		"Personal Details": {
+			"PatientId": "PAT-74368",
+			"DateOfBirth": "05/07/1966",
+			"Name": "Ashley Torres",
+			"TreatmentStartDate": "17/08/2025",
+			"LastScanDate": "29/01/2026",
+			"NextScanDate": "04/03/2026",
+			"LastVisitDate": "29/01/2026",
+			"NextVisitDate": "01/03/2026",
+			"Status": "Warning",
+			"Gender": "Male",
+			"Height": "186",
+			"Weight": "71",
+			"ContactDetails": {
+				"Phone": "693.216.5676",
+				"EmailAddress": "devon79@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "36",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 4.04,
+				"yCoordinate": 4.85,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 4.27,
+				"yCoordinate": 1.81,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "38.4",
+				"Volume": "3.09",
+				"Depth": "0.41",
+				"LatestGlucoseReading": "105",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "37.9",
+				"Volume": "2.32",
+				"Depth": "0.9",
+				"LatestGlucoseReading": "95",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-903",
+		"PatientId": "PAT-6049",
+		"Name": "Katie West",
+		"UserNumber": "959.431.6686",
+		"Personal Details": {
+			"PatientId": "PAT-6049",
+			"DateOfBirth": "01/06/1981",
+			"Name": "Brett Bell",
+			"TreatmentStartDate": "07/08/2025",
+			"LastScanDate": "17/01/2026",
+			"NextScanDate": "10/02/2026",
+			"LastVisitDate": "18/01/2026",
+			"NextVisitDate": "28/02/2026",
+			"Status": "In-Active",
+			"Gender": "Female",
+			"Height": "184",
+			"Weight": "52",
+			"ContactDetails": {
+				"Phone": "001-300-518-8378",
+				"EmailAddress": "riverasarah@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "23",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "6.2",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 7.17,
+				"yCoordinate": 3.75,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.2",
+				"Volume": "1.58",
+				"Depth": "0.28",
+				"LatestGlucoseReading": "109",
+				"UlcerGrade": "3"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-358",
+		"PatientId": "PAT-73649",
+		"Name": "Dustin Robinson",
+		"UserNumber": "2896767000",
+		"Personal Details": {
+			"PatientId": "PAT-73649",
+			"DateOfBirth": "06/10/1983",
+			"Name": "Matthew Johnson",
+			"TreatmentStartDate": "10/08/2025",
+			"LastScanDate": "20/01/2026",
+			"NextScanDate": "08/02/2026",
+			"LastVisitDate": "28/01/2026",
+			"NextVisitDate": "15/03/2026",
+			"Status": "In-Active",
+			"Gender": "Male",
+			"Height": "169",
+			"Weight": "79",
+			"ContactDetails": {
+				"Phone": "001-882-339-9786x40067",
+				"EmailAddress": "matthew95@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "32",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.8",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 3.69,
+				"yCoordinate": 9.8,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.1",
+				"Volume": "0.68",
+				"Depth": "1.33",
+				"LatestGlucoseReading": "118",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-728",
+		"PatientId": "PAT-30728",
+		"Name": "Beverly Wells",
+		"UserNumber": "(686)534-1820x27695",
+		"Personal Details": {
+			"PatientId": "PAT-30728",
+			"DateOfBirth": "30/09/1955",
+			"Name": "Jennifer Rubio",
+			"TreatmentStartDate": "30/05/2025",
+			"LastScanDate": "21/01/2026",
+			"NextScanDate": "26/02/2026",
+			"LastVisitDate": "17/01/2026",
+			"NextVisitDate": "10/03/2026",
+			"Status": "In-Active",
+			"Gender": "Female",
+			"Height": "186",
+			"Weight": "75",
+			"ContactDetails": {
+				"Phone": "337.509.8405",
+				"EmailAddress": "cynthiaandrews@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": true,
+			"YearsDiagnosed": "15",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "6.3",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 9.89,
+				"yCoordinate": 2.24,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 3.72,
+				"yCoordinate": 1.65,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 3.74,
+				"yCoordinate": 2.44,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "37.1",
+				"Volume": "0.93",
+				"Depth": "0.11",
+				"LatestGlucoseReading": "131",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "37.0",
+				"Volume": "4.72",
+				"Depth": "0.73",
+				"LatestGlucoseReading": "156",
+				"UlcerGrade": "4"
+			},
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "37.8",
+				"Volume": "3.63",
+				"Depth": "1.12",
+				"LatestGlucoseReading": "172",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-962",
+		"PatientId": "PAT-7151",
+		"Name": "Kenneth Davila",
+		"UserNumber": "001-358-976-6809x9694",
+		"Personal Details": {
+			"PatientId": "PAT-7151",
+			"DateOfBirth": "23/03/1954",
+			"Name": "Charles Gates",
+			"TreatmentStartDate": "08/09/2025",
+			"LastScanDate": "04/02/2026",
+			"NextScanDate": "01/03/2026",
+			"LastVisitDate": "29/01/2026",
+			"NextVisitDate": "26/02/2026",
+			"Status": "New",
+			"Gender": "Male",
+			"Height": "150",
+			"Weight": "86",
+			"ContactDetails": {
+				"Phone": "(224)872-7783",
+				"EmailAddress": "wjohnson@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "23",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 9.35,
+				"yCoordinate": 0.99,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 4,
+				"UlcerTemperature": "36.4",
+				"Volume": "2.25",
+				"Depth": "1.07",
+				"LatestGlucoseReading": "175",
+				"UlcerGrade": "4"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-189",
+		"PatientId": "PAT-87093",
+		"Name": "Eric Jackson",
+		"UserNumber": "536.479.3507x059",
+		"Personal Details": {
+			"PatientId": "PAT-87093",
+			"DateOfBirth": "21/01/1983",
+			"Name": "Joy Deleon",
+			"TreatmentStartDate": "22/09/2025",
+			"LastScanDate": "27/01/2026",
+			"NextScanDate": "16/02/2026",
+			"LastVisitDate": "03/02/2026",
+			"NextVisitDate": "03/03/2026",
+			"Status": "Warning",
+			"Gender": "Female",
+			"Height": "155",
+			"Weight": "82",
+			"ContactDetails": {
+				"Phone": "(464)537-3732x731",
+				"EmailAddress": "danielthompson@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "23",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "5.6",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 2.09,
+				"yCoordinate": 9.39,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "38.2",
+				"Volume": "4.37",
+				"Depth": "0.82",
+				"LatestGlucoseReading": "118",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-915",
+		"PatientId": "PAT-42904",
+		"Name": "Crystal Miller",
+		"UserNumber": "761-605-4183x223",
+		"Personal Details": {
+			"PatientId": "PAT-42904",
+			"DateOfBirth": "05/12/1968",
+			"Name": "Kyle Obrien",
+			"TreatmentStartDate": "17/11/2025",
+			"LastScanDate": "01/02/2026",
+			"NextScanDate": "22/02/2026",
+			"LastVisitDate": "19/01/2026",
+			"NextVisitDate": "17/03/2026",
+			"Status": "In-Active",
+			"Gender": "Male",
+			"Height": "180",
+			"Weight": "79",
+			"ContactDetails": {
+				"Phone": "270.806.6706x902",
+				"EmailAddress": "vanessa90@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "26",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.4",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 0.93,
+				"yCoordinate": 2.34,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 3.93,
+				"yCoordinate": 8.29,
+				"ulcerId": "ULC-2"
+			},
+			{
+				"xCoordinate": 5.2,
+				"yCoordinate": 6.02,
+				"ulcerId": "ULC-3"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "36.6",
+				"Volume": "0.67",
+				"Depth": "1.07",
+				"LatestGlucoseReading": "168",
+				"UlcerGrade": "1"
+			},
+			{
+				"NumberOfScans": 3,
+				"UlcerTemperature": "38.2",
+				"Volume": "1.55",
+				"Depth": "1.12",
+				"LatestGlucoseReading": "166",
+				"UlcerGrade": "2"
+			},
+			{
+				"NumberOfScans": 10,
+				"UlcerTemperature": "36.0",
+				"Volume": "3.84",
+				"Depth": "0.54",
+				"LatestGlucoseReading": "139",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-636",
+		"PatientId": "PAT-67297",
+		"Name": "John Downs",
+		"UserNumber": "515-580-6424x7717",
+		"Personal Details": {
+			"PatientId": "PAT-67297",
+			"DateOfBirth": "09/12/1945",
+			"Name": "Andrea Gould",
+			"TreatmentStartDate": "25/03/2025",
+			"LastScanDate": "25/01/2026",
+			"NextScanDate": "19/02/2026",
+			"LastVisitDate": "22/01/2026",
+			"NextVisitDate": "09/03/2026",
+			"Status": "In-Active",
+			"Gender": "Male",
+			"Height": "157",
+			"Weight": "117",
+			"ContactDetails": {
+				"Phone": "(996)235-5963x926",
+				"EmailAddress": "christina79@example.net"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "1",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "8.3",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 6.25,
+				"yCoordinate": 8.08,
+				"ulcerId": "ULC-1"
+			},
+			{
+				"xCoordinate": 7.16,
+				"yCoordinate": 1.81,
+				"ulcerId": "ULC-2"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 9,
+				"UlcerTemperature": "36.4",
+				"Volume": "2.72",
+				"Depth": "1.19",
+				"LatestGlucoseReading": "119",
+				"UlcerGrade": "3"
+			},
+			{
+				"NumberOfScans": 8,
+				"UlcerTemperature": "36.3",
+				"Volume": "2.8",
+				"Depth": "1.32",
+				"LatestGlucoseReading": "104",
+				"UlcerGrade": "2"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-892",
+		"PatientId": "PAT-14261",
+		"Name": "Phillip Thompson Jr.",
+		"UserNumber": "(539)331-3919x69397",
+		"Personal Details": {
+			"PatientId": "PAT-14261",
+			"DateOfBirth": "13/06/1973",
+			"Name": "Kathryn Dominguez",
+			"TreatmentStartDate": "23/10/2025",
+			"LastScanDate": "14/01/2026",
+			"NextScanDate": "06/03/2026",
+			"LastVisitDate": "04/02/2026",
+			"NextVisitDate": "10/03/2026",
+			"Status": "Active",
+			"Gender": "Male",
+			"Height": "188",
+			"Weight": "86",
+			"ContactDetails": {
+				"Phone": "001-232-455-6131x40024",
+				"EmailAddress": "wgray@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 2,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "13",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "6.9",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 0.81,
+				"yCoordinate": 8.61,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 5,
+				"UlcerTemperature": "37.3",
+				"Volume": "2.64",
+				"Depth": "1.28",
+				"LatestGlucoseReading": "169",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-133",
+		"PatientId": "PAT-49781",
+		"Name": "Steven Sellers",
+		"UserNumber": "851-279-0084",
+		"Personal Details": {
+			"PatientId": "PAT-49781",
+			"DateOfBirth": "12/05/1968",
+			"Name": "Crystal Jones",
+			"TreatmentStartDate": "30/06/2025",
+			"LastScanDate": "30/01/2026",
+			"NextScanDate": "20/02/2026",
+			"LastVisitDate": "29/01/2026",
+			"NextVisitDate": "05/03/2026",
+			"Status": "In-Active",
+			"Gender": "Male",
+			"Height": "184",
+			"Weight": "58",
+			"ContactDetails": {
+				"Phone": "001-382-496-8825x955",
+				"EmailAddress": "dominiclowe@example.com"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "28",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "9.9",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 0.91,
+				"yCoordinate": 1.59,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 1,
+				"UlcerTemperature": "37.4",
+				"Volume": "4.37",
+				"Depth": "0.11",
+				"LatestGlucoseReading": "175",
+				"UlcerGrade": "1"
+			}
+		]
+	},
+	{
+		"ClinicianId": "DOC-783",
+		"PatientId": "PAT-8328",
+		"Name": "Sherry Taylor",
+		"UserNumber": "(589)628-6070x573",
+		"Personal Details": {
+			"PatientId": "PAT-8328",
+			"DateOfBirth": "16/04/1984",
+			"Name": "Kyle Huynh",
+			"TreatmentStartDate": "23/07/2025",
+			"LastScanDate": "24/01/2026",
+			"NextScanDate": "14/02/2026",
+			"LastVisitDate": "30/01/2026",
+			"NextVisitDate": "05/03/2026",
+			"Status": "Warning",
+			"Gender": "Male",
+			"Height": "189",
+			"Weight": "72",
+			"ContactDetails": {
+				"Phone": "(741)463-7497x0236",
+				"EmailAddress": "alexolson@example.org"
+			}
+		},
+		"DiabetesInfo": {
+			"DiabetesType": 1,
+			"PreviousAmputation": false,
+			"YearsDiagnosed": "10",
+			"PreviousTreatments": "Metformin",
+			"OtherDiabeticAssociatedComplications": "None",
+			"LastHb1AcReading": "7.6",
+			"LastHb1AcReadingDate": "05/02/2026",
+			"LastLipidProfile": "70",
+			"LastLipidProfileDate": "05/02/2026",
+			"Medication": true,
+			"MedicationsInfo": "Insulin",
+			"OtherDMOrCVComplications": "None"
+		},
+		"MedicalHistory": "No significant cardiac history.",
+		"FootGraph": [
+			{
+				"xCoordinate": 7.62,
+				"yCoordinate": 2.94,
+				"ulcerId": "ULC-1"
+			}
+		],
+		"Ulcers": [
+			{
+				"NumberOfScans": 7,
+				"UlcerTemperature": "36.3",
+				"Volume": "1.71",
+				"Depth": "0.34",
+				"LatestGlucoseReading": "136",
+				"UlcerGrade": "1"
+			}
+		]
+	}
+]

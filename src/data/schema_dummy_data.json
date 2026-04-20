@@ -1,0 +1,629 @@
+{
+	"patients": [
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "98235987235",
+			"Name": "Ashlynn Herwitz",
+			"UserNumber": "UK-0001",
+
+			"Personal Details": {
+				"PatientId": "98235987235",
+				"Name": "Ashlynn Herwitz",
+				"DateOfBirth": "21/04/1967",
+				"TreatmentStartDate": "21/04/2014",
+				"LastVisitDate": "15/10/2025",
+				"NextVisitDate": "31/10/2025",
+				"Status": "New",
+				"Gender": "Female",
+				"Height": "165 cm",
+				"Weight": "68 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900001",
+					"EmailAddress": "ashlynn.herwitz@nhs.uk"
+				}
+			},
+
+			"DiabetesInfo": {
+				"DiabetesType": 2,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "11",
+				"PreviousTreatments": "Lifestyle management",
+				"OtherDiabeticAssociatedComplications": "Peripheral neuropathy",
+				"LastHb1AcReading": "7.1%",
+				"LastHb1AcReadingDate": "01/09/2025",
+				"LastLipidProfile": "Normal",
+				"LastLipidProfileDate": "01/09/2025",
+				"Medication": true,
+				"MedicationsInfo": "Metformin",
+				"OtherDMOrCVComplications": "Hypertension"
+			},
+
+			"MedicalHistory": "No major surgeries",
+
+			"FootGraph": [{ "xCoordinate": 0.42, "yCoordinate": 0.78, "ulcerId": "ULC-001" }],
+
+			"Ulcers": [
+				{ "NumberOfScans": 5, "UlcerGrade": "5" },
+				{ "NumberOfScans": 3, "UlcerGrade": "3" }
+			]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "98239485713",
+			"Name": "Paitynn Carder",
+			"UserNumber": "UK-0002",
+
+			"Personal Details": {
+				"PatientId": "98239485713",
+				"Name": "Paitynn Carder",
+				"DateOfBirth": "21/04/1956",
+				"TreatmentStartDate": "21/04/2014",
+				"LastVisitDate": "15/10/2025",
+				"NextVisitDate": "31/10/2025",
+				"Status": "Active",
+				"Gender": "Female",
+				"Height": "160 cm",
+				"Weight": "72 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900002",
+					"EmailAddress": "paitynn.carder@nhs.uk"
+				}
+			},
+
+			"DiabetesInfo": {
+				"DiabetesType": 2,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "14",
+				"PreviousTreatments": "Diet controlled",
+				"Medication": false
+			},
+
+			"MedicalHistory": "Osteoarthritis",
+
+			"FootGraph": [],
+			"Ulcers": [{ "NumberOfScans": 4, "UlcerGrade": "1" }]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "234987234533",
+			"Name": "Randy Rosser",
+			"UserNumber": "UK-0003",
+
+			"Personal Details": {
+				"PatientId": "234987234533",
+				"Name": "Randy Rosser",
+				"DateOfBirth": "21/04/1969",
+				"TreatmentStartDate": "21/04/2014",
+				"LastVisitDate": "15/10/2025",
+				"NextVisitDate": "31/10/2025",
+				"Status": "New",
+				"Gender": "Male",
+				"Height": "175 cm",
+				"Weight": "84 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900003",
+					"EmailAddress": "randy.rosser@nhs.uk"
+				}
+			},
+
+			"DiabetesInfo": {
+				"DiabetesType": 1,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "22",
+				"Medication": true,
+				"MedicationsInfo": "Insulin"
+			},
+
+			"MedicalHistory": "Smoker (former)",
+
+			"FootGraph": [],
+			"Ulcers": [
+				{ "NumberOfScans": 2, "UlcerGrade": "2" },
+				{ "NumberOfScans": 3, "UlcerGrade": "3" }
+			]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900001",
+			"Name": "Oliver Pembroke",
+			"UserNumber": "UK-0031",
+			"Personal Details": {
+				"PatientId": "900001",
+				"Name": "Oliver Pembroke",
+				"DateOfBirth": "12/02/1958",
+				"TreatmentStartDate": "06/07/2012",
+				"LastVisitDate": "28/10/2025",
+				"NextVisitDate": "11/11/2025",
+				"Status": "Active",
+				"Gender": "Male",
+				"Height": "178 cm",
+				"Weight": "82 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900031",
+					"EmailAddress": "oliver.pembroke@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 2,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "15",
+				"Medication": true,
+				"MedicationsInfo": "Metformin"
+			},
+			"MedicalHistory": "Hypertension",
+			"FootGraph": [],
+			"Ulcers": [{ "NumberOfScans": 3, "UlcerGrade": "2" }]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900002",
+			"Name": "Amelia Hartley",
+			"UserNumber": "UK-0032",
+			"Personal Details": {
+				"PatientId": "900002",
+				"Name": "Amelia Hartley",
+				"DateOfBirth": "04/09/1966",
+				"TreatmentStartDate": "18/11/2014",
+				"LastVisitDate": "30/10/2025",
+				"NextVisitDate": "13/11/2025",
+				"Status": "New",
+				"Gender": "Female",
+				"Height": "162 cm",
+				"Weight": "70 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900032",
+					"EmailAddress": "amelia.hartley@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 1,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "30",
+				"Medication": true,
+				"MedicationsInfo": "Insulin"
+			},
+			"MedicalHistory": "Asthma",
+			"FootGraph": [],
+			"Ulcers": [
+				{ "NumberOfScans": 2, "UlcerGrade": "1" },
+				{ "NumberOfScans": 2, "UlcerGrade": "2" }
+			]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900003",
+			"Name": "Declan Moore",
+			"UserNumber": "UK-0033",
+			"Personal Details": {
+				"PatientId": "900003",
+				"Name": "Declan Moore",
+				"DateOfBirth": "22/05/1951",
+				"TreatmentStartDate": "12/07/2012",
+				"LastVisitDate": "01/10/2025",
+				"NextVisitDate": "15/10/2025",
+				"Status": "Active",
+				"Gender": "Male",
+				"Height": "180 cm",
+				"Weight": "88 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900033",
+					"EmailAddress": "declan.moore@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 2,
+				"PreviousAmputation": true,
+				"YearsDiagnosed": "20",
+				"Medication": true,
+				"MedicationsInfo": "Metformin + Insulin"
+			},
+			"MedicalHistory": "Previous toe amputation",
+			"FootGraph": [],
+			"Ulcers": [{ "NumberOfScans": 6, "UlcerGrade": "4" }]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900004",
+			"Name": "Poppy Whitfield",
+			"UserNumber": "UK-0034",
+			"Personal Details": {
+				"PatientId": "900004",
+				"Name": "Poppy Whitfield",
+				"DateOfBirth": "17/03/1970",
+				"TreatmentStartDate": "09/03/2021",
+				"LastVisitDate": "18/10/2025",
+				"NextVisitDate": "01/11/2025",
+				"Status": "Warning",
+				"Gender": "Female",
+				"Height": "158 cm",
+				"Weight": "66 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900034",
+					"EmailAddress": "poppy.whitfield@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 2,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "6",
+				"Medication": true,
+				"MedicationsInfo": "Metformin"
+			},
+			"MedicalHistory": "None recorded",
+			"FootGraph": [],
+			"Ulcers": [{ "NumberOfScans": 1, "UlcerGrade": "5" }]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900005",
+			"Name": "Sebastian Crowe",
+			"UserNumber": "UK-0035",
+			"Personal Details": {
+				"PatientId": "900005",
+				"Name": "Sebastian Crowe",
+				"DateOfBirth": "08/11/1964",
+				"TreatmentStartDate": "22/08/2016",
+				"LastVisitDate": "25/10/2025",
+				"NextVisitDate": "08/11/2025",
+				"Status": "In-Active",
+				"Gender": "Male",
+				"Height": "172 cm",
+				"Weight": "79 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900035",
+					"EmailAddress": "sebastian.crowe@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 2,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "10",
+				"Medication": false
+			},
+			"MedicalHistory": "Hyperlipidaemia",
+			"FootGraph": [],
+			"Ulcers": []
+		},
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900006",
+			"Name": "Harriet Lawson",
+			"UserNumber": "UK-0036",
+			"Personal Details": {
+				"PatientId": "900006",
+				"Name": "Harriet Lawson",
+				"DateOfBirth": "11/06/1959",
+				"TreatmentStartDate": "14/07/2014",
+				"LastVisitDate": "20/10/2025",
+				"NextVisitDate": "03/11/2025",
+				"Status": "New",
+				"Gender": "Female",
+				"Height": "164 cm",
+				"Weight": "69 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900036",
+					"EmailAddress": "harriet.lawson@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 2,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "9",
+				"Medication": true,
+				"MedicationsInfo": "Metformin"
+			},
+			"MedicalHistory": "Hypothyroidism",
+			"FootGraph": [],
+			"Ulcers": [{ "NumberOfScans": 2, "UlcerGrade": "2" }]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900007",
+			"Name": "Thomas Beckett",
+			"UserNumber": "UK-0037",
+			"Personal Details": {
+				"PatientId": "900007",
+				"Name": "Thomas Beckett",
+				"DateOfBirth": "03/12/1954",
+				"TreatmentStartDate": "06/02/2013",
+				"LastVisitDate": "09/11/2025",
+				"NextVisitDate": "23/11/2025",
+				"Status": "In-Active",
+				"Gender": "Male",
+				"Height": "176 cm",
+				"Weight": "85 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900037",
+					"EmailAddress": "thomas.beckett@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 2,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "18",
+				"Medication": true,
+				"MedicationsInfo": "Metformin"
+			},
+			"MedicalHistory": "Ischaemic heart disease",
+			"FootGraph": [],
+			"Ulcers": [{ "NumberOfScans": 3, "UlcerGrade": "3" }]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900008",
+			"Name": "Imogen Fletcher",
+			"UserNumber": "UK-0038",
+			"Personal Details": {
+				"PatientId": "900008",
+				"Name": "Imogen Fletcher",
+				"DateOfBirth": "28/01/1968",
+				"TreatmentStartDate": "28/01/2015",
+				"LastVisitDate": "06/11/2025",
+				"NextVisitDate": "20/11/2025",
+				"Status": "Warning",
+				"Gender": "Female",
+				"Height": "159 cm",
+				"Weight": "63 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900038",
+					"EmailAddress": "imogen.fletcher@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 1,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "28",
+				"Medication": true,
+				"MedicationsInfo": "Insulin"
+			},
+			"MedicalHistory": "None recorded",
+			"FootGraph": [],
+			"Ulcers": [
+				{ "NumberOfScans": 3, "UlcerGrade": "3" },
+				{ "NumberOfScans": 2, "UlcerGrade": "4" }
+			]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900009",
+			"Name": "Edward Mallory",
+			"UserNumber": "UK-0039",
+			"Personal Details": {
+				"PatientId": "900009",
+				"Name": "Edward Mallory",
+				"DateOfBirth": "18/09/1952",
+				"TreatmentStartDate": "18/09/2014",
+				"LastVisitDate": "15/11/2025",
+				"NextVisitDate": "29/11/2025",
+				"Status": "Active",
+				"Gender": "Male",
+				"Height": "181 cm",
+				"Weight": "90 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900039",
+					"EmailAddress": "edward.mallory@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 2,
+				"PreviousAmputation": true,
+				"YearsDiagnosed": "21",
+				"Medication": true,
+				"MedicationsInfo": "Metformin + Insulin"
+			},
+			"MedicalHistory": "Previous partial foot amputation",
+			"FootGraph": [],
+			"Ulcers": [{ "NumberOfScans": 4, "UlcerGrade": "2" }]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900010",
+			"Name": "Naomi Prescott",
+			"UserNumber": "UK-0040",
+			"Personal Details": {
+				"PatientId": "900010",
+				"Name": "Naomi Prescott",
+				"DateOfBirth": "09/03/1978",
+				"TreatmentStartDate": "09/03/2021",
+				"LastVisitDate": "18/10/2025",
+				"NextVisitDate": "01/11/2025",
+				"Status": "Warning",
+				"Gender": "Female",
+				"Height": "167 cm",
+				"Weight": "71 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900040",
+					"EmailAddress": "naomi.prescott@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 2,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "4",
+				"Medication": true,
+				"MedicationsInfo": "Metformin"
+			},
+			"MedicalHistory": "Gestational diabetes (previous)",
+			"FootGraph": [],
+			"Ulcers": [{ "NumberOfScans": 1, "UlcerGrade": "5" }]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900011",
+			"Name": "Patrick Donnelly",
+			"UserNumber": "UK-0041",
+			"Personal Details": {
+				"PatientId": "900011",
+				"Name": "Patrick Donnelly",
+				"DateOfBirth": "06/07/1950",
+				"TreatmentStartDate": "06/07/2011",
+				"LastVisitDate": "28/10/2025",
+				"NextVisitDate": "11/11/2025",
+				"Status": "Warning",
+				"Gender": "Male",
+				"Height": "174 cm",
+				"Weight": "83 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900041",
+					"EmailAddress": "patrick.donnelly@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 2,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "19",
+				"Medication": true,
+				"MedicationsInfo": "Metformin"
+			},
+			"MedicalHistory": "COPD",
+			"FootGraph": [],
+			"Ulcers": [{ "NumberOfScans": 5, "UlcerGrade": "3" }]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900012",
+			"Name": "Lucinda Shaw",
+			"UserNumber": "UK-0042",
+			"Personal Details": {
+				"PatientId": "900012",
+				"Name": "Lucinda Shaw",
+				"DateOfBirth": "14/05/1963",
+				"TreatmentStartDate": "14/05/2014",
+				"LastVisitDate": "12/11/2025",
+				"NextVisitDate": "26/11/2025",
+				"Status": "In-Active",
+				"Gender": "Female",
+				"Height": "161 cm",
+				"Weight": "67 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900042",
+					"EmailAddress": "lucinda.shaw@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 2,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "12",
+				"Medication": false
+			},
+			"MedicalHistory": "None recorded",
+			"FootGraph": [],
+			"Ulcers": []
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900013",
+			"Name": "George Whitaker",
+			"UserNumber": "UK-0043",
+			"Personal Details": {
+				"PatientId": "900013",
+				"Name": "George Whitaker",
+				"DateOfBirth": "01/10/1953",
+				"TreatmentStartDate": "12/07/2012",
+				"LastVisitDate": "01/10/2025",
+				"NextVisitDate": "15/10/2025",
+				"Status": "Active",
+				"Gender": "Male",
+				"Height": "179 cm",
+				"Weight": "86 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900043",
+					"EmailAddress": "george.whitaker@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 1,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "35",
+				"Medication": true,
+				"MedicationsInfo": "Insulin"
+			},
+			"MedicalHistory": "Diabetic retinopathy",
+			"FootGraph": [],
+			"Ulcers": [{ "NumberOfScans": 2, "UlcerGrade": "1" }]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900014",
+			"Name": "Freya Collins",
+			"UserNumber": "UK-0044",
+			"Personal Details": {
+				"PatientId": "900014",
+				"Name": "Freya Collins",
+				"DateOfBirth": "22/08/1979",
+				"TreatmentStartDate": "22/08/2016",
+				"LastVisitDate": "25/10/2025",
+				"NextVisitDate": "08/11/2025",
+				"Status": "Active",
+				"Gender": "Female",
+				"Height": "168 cm",
+				"Weight": "73 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900044",
+					"EmailAddress": "freya.collins@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 2,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "7",
+				"Medication": true,
+				"MedicationsInfo": "Metformin"
+			},
+			"MedicalHistory": "Polycystic ovary syndrome",
+			"FootGraph": [],
+			"Ulcers": [{ "NumberOfScans": 2, "UlcerGrade": "4" }]
+		},
+
+		{
+			"ClinicianId": "CLIN-UK-001",
+			"PatientId": "900015",
+			"Name": "Henry Caldwell",
+			"UserNumber": "UK-0045",
+			"Personal Details": {
+				"PatientId": "900015",
+				"Name": "Henry Caldwell",
+				"DateOfBirth": "10/11/1955",
+				"TreatmentStartDate": "03/04/2011",
+				"LastVisitDate": "10/11/2025",
+				"NextVisitDate": "24/11/2025",
+				"Status": "Active",
+				"Gender": "Male",
+				"Height": "177 cm",
+				"Weight": "87 kg",
+				"ContactDetails": {
+					"Phone": "+44 7700 900045",
+					"EmailAddress": "henry.caldwell@nhs.uk"
+				}
+			},
+			"DiabetesInfo": {
+				"DiabetesType": 2,
+				"PreviousAmputation": false,
+				"YearsDiagnosed": "16",
+				"Medication": true,
+				"MedicationsInfo": "Metformin"
+			},
+			"MedicalHistory": "Chronic kidney disease (stage 2)",
+			"FootGraph": [],
+			"Ulcers": [
+				{ "NumberOfScans": 3, "UlcerGrade": "4" },
+				{ "NumberOfScans": 1, "UlcerGrade": "1" }
+			]
+		}
+	]
+}
