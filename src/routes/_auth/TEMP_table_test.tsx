@@ -46,6 +46,8 @@ const Dashboard = () => {
 	const overviewTableData = mapPatientsToTable(filteredWarningPatients);
 	const fullTableData = mapPatientsToTable(filteredFullPatients);
 
+	const clinicianId = localStorage.getItem('clinicianId') || '';
+
 	return (
 		<div className='flex min-h-screen flex-col'>
 			<DashboardHeader activeView={activeView} setActiveView={setActiveView} user={user} />
@@ -85,7 +87,7 @@ const Dashboard = () => {
 									Action Required: Showing {filteredWarningPatients.length} patients with Warning
 									status.
 								</p>
-								<PatientTable data={overviewTableData} />
+								<PatientTable data={overviewTableData} clinicianId={clinicianId} />
 							</div>
 						</div>
 					)}
@@ -111,7 +113,7 @@ const Dashboard = () => {
 								/>
 							</div>
 
-							<CreateNewPatientButton />
+							<CreateNewPatientButton clinicianId={clinicianId} />
 							<div className='bg-white p-6 shadow-sm'>
 								<PatientTable data={fullTableData} />
 							</div>
@@ -127,10 +129,30 @@ export const Route = createFileRoute('/_auth/TEMP_table_test')({
 	component: Dashboard,
 	loader: async ({ context }) => {
 		try {
-			const response = await fetch('http://localhost:3000/patients');
-			if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+			// 1. Get the logged-in clinician's ID from storage
+			const clinicianId = localStorage.getItem('clinicianId');
+
+			// 2. If no clinicianId exists, return empty patients immediately
+			if (!clinicianId) {
+				return { user: context.user, patients: [] };
+			}
+
+			// 3. Pass the ID to your backend as a query parameter
+			// Change 'clinicianId' to 'ClinicianId' in the query string
+			const response = await fetch(`http://localhost:3000/patients?ClinicianId=${clinicianId}`);
+
+			if (!response.ok) {
+				// We log the error for debugging but return an empty list to prevent a UI crash
+				console.warn(`Server responded with ${response.status}`);
+				return { user: context.user, patients: [] };
+			}
+
 			const patientsData = await response.json();
-			return { user: context.user, patients: patientsData };
+
+			return {
+				user: context.user,
+				patients: patientsData || [], // Fallback to empty array if data is null
+			};
 		} catch (error) {
 			console.error('Failed to load patients:', error);
 			return { user: context.user, patients: [] };

@@ -19,10 +19,8 @@ const PieSliceLabelPlugin = {
 
 		const meta = chart.getDatasetMeta(0);
 		const data = chart.data.datasets[0].data;
-		const labels = chart.data.labels;
 
 		meta.data.forEach((slice: any, index: number) => {
-			// Only draw if the slice is large enough to see
 			if (data[index] > 0) {
 				const { x, y } = slice.tooltipPosition();
 				ctx.fillText(`${data[index]}`, x, y);
@@ -33,7 +31,6 @@ const PieSliceLabelPlugin = {
 	},
 };
 
-// Register core + plugin
 ChartJS.register(ArcElement, Tooltip, Legend, Title, PieSliceLabelPlugin);
 
 interface ChartProps {
@@ -41,11 +38,31 @@ interface ChartProps {
 }
 
 // ===============================
-// Scan Status Pie Chart (Uses MongoDB "Personal Details.Status")
+// Reusable Empty State Component
+// ===============================
+const EmptyChartState = ({ title }: { title: string }) => (
+	<div className='border-slate-200 flex h-full flex-col items-center justify-center rounded-xl bg-white-primary p-4 shadow-sm'>
+		<h3 className='mb-4 w-full text-left text-[18px] font-bold text-[#666]'>{title}</h3>
+		<div className='flex flex-1 flex-col items-center justify-center'>
+			<p className='text-gray-400 font-medium italic'>No patient data available</p>
+		</div>
+	</div>
+);
+
+// ===============================
+// Scan Status Pie Chart
 // ===============================
 export const ScanStatusPieChart: React.FC<ChartProps> = ({ patients }) => {
-	// Extract status from MongoDB nested structure
-	const statusCounts = (patients || []).reduce((acc: Record<string, number>, p) => {
+	// Check if we actually have patients to display
+	if (!patients || patients.length === 0) {
+		return (
+			<div className='relative h-[300px] w-full lg:max-w-[500px]'>
+				<EmptyChartState title='Patient Status Overview' />
+			</div>
+		);
+	}
+
+	const statusCounts = patients.reduce((acc: Record<string, number>, p) => {
 		const status = p['Personal Details']?.Status || 'No Status';
 		acc[status] = (acc[status] || 0) + 1;
 		return acc;
@@ -91,11 +108,19 @@ export const ScanStatusPieChart: React.FC<ChartProps> = ({ patients }) => {
 };
 
 // ===============================
-// Ulcer Grade Doughnut Chart (Iterates MongoDB "Ulcers" Array)
+// Ulcer Grade Doughnut Chart
 // ===============================
 export const UlcerGradeDoughnut: React.FC<ChartProps> = ({ patients }) => {
-	// Iterate through every patient and every ulcer in their Ulcers array
-	const gradeCounts = (patients || []).reduce((acc: Record<string, number>, patient) => {
+	// Check if we have patients
+	if (!patients || patients.length === 0) {
+		return (
+			<div className='relative h-[350px] w-full lg:max-w-[350px]'>
+				<EmptyChartState title='Ulcer Grade Distribution' />
+			</div>
+		);
+	}
+
+	const gradeCounts = patients.reduce((acc: Record<string, number>, patient) => {
 		if (patient.Ulcers && Array.isArray(patient.Ulcers) && patient.Ulcers.length > 0) {
 			patient.Ulcers.forEach((ulcer: any) => {
 				const grade = ulcer.UlcerGrade || 'Unreviewed';
@@ -107,7 +132,6 @@ export const UlcerGradeDoughnut: React.FC<ChartProps> = ({ patients }) => {
 		return acc;
 	}, {});
 
-	// Sort labels numerically (Grade 1, 2, 3...)
 	const labels = Object.keys(gradeCounts).sort();
 	const values = labels.map(label => gradeCounts[label]);
 

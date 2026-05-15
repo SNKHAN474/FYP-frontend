@@ -9,20 +9,31 @@ import StatusPill from '../StatusPill';
 
 interface Props {
 	data: PatientTableRow[];
+	clinicianId: string; // Added the clinicianId prop
 }
 
-export const PatientTable = ({ data }: Props) => {
+export const PatientTable = ({ data, clinicianId }: Props) => {
 	const [currentPage, setCurrentPage] = useState(0);
 	const rowsPerPage = 10;
 
+	// STEP 1: Filter data exactly for this clinician before doing anything else
+	const filteredData = data.filter(patient => {
+		// We check both casing possibilities just in case the mapper changed[cite: 3, 4]
+		return (
+			(patient as any).ClinicianId === clinicianId || (patient as any).clinicianId === clinicianId
+		);
+	});
+
+	// STEP 2: Reset page when the filtered results change[cite: 4]
 	useEffect(() => {
 		setCurrentPage(0);
-	}, [data.length]);
+	}, [filteredData.length]);
 
-	const totalPages = Math.ceil(data.length / rowsPerPage);
+	// STEP 3: Use filteredData for all pagination calculations[cite: 4]
+	const totalPages = Math.ceil(filteredData.length / rowsPerPage);
 	const startIndex = currentPage * rowsPerPage;
 	const endIndex = startIndex + rowsPerPage;
-	const currentRows = data.slice(startIndex, endIndex);
+	const currentRows = filteredData.slice(startIndex, endIndex);
 
 	const emptyRowsCount = rowsPerPage - currentRows.length;
 
@@ -32,20 +43,18 @@ export const PatientTable = ({ data }: Props) => {
 				<TableHeader />
 
 				<div className='flex flex-col'>
-					{/* Render actual data */}
+					{/* Render actual data from the filtered list[cite: 4] */}
 					{currentRows.map(row => (
 						<TableRow key={row.patientId} row={row} />
 					))}
 
-					{/* Render empty rows to fill the gap */}
+					{/* Render empty rows to fill the gap - EXACTLY as you had it[cite: 4] */}
 					{emptyRowsCount > 0 &&
 						Array.from({ length: emptyRowsCount }).map((_, index) => (
 							<div
 								key={`empty-${index}`}
-								// We use exact same padding (py-2) and grid as TableRow
 								className={`${TABLE_GRID} items-center border-b bg-white-primary px-4 py-2 text-sm`}
 							>
-								{/* Fill empty text columns to match TableRow structure */}
 								<div>&nbsp;</div>
 								<div>&nbsp;</div>
 								<div>&nbsp;</div>
@@ -54,21 +63,23 @@ export const PatientTable = ({ data }: Props) => {
 								<div>&nbsp;</div>
 								<div>&nbsp;</div>
 
-								{/* Invisible Status Pill to lock in the height */}
+								{/* Invisible Status Pill to lock in the height[cite: 4] */}
 								<div className='invisible'>
 									<StatusPill status='New' />
 								</div>
 
-								{/* Invisible Eye Icon to match height and spacing */}
+								{/* Invisible Eye Icon to match height and spacing[cite: 4] */}
 								<div className='flex justify-center'>
 									<Eye className='pointer-events-none invisible h-4 w-4 select-none' />
 								</div>
 							</div>
 						))}
 
-					{/* Show "No patients" only if data is empty */}
-					{data.length === 0 && (
-						<div className='text-gray-500 bg-white py-10 text-center'>No patients found.</div>
+					{/* Show "No patients" based on filtered results[cite: 4] */}
+					{filteredData.length === 0 && (
+						<div className='text-gray-500 bg-white py-10 text-center'>
+							No patients found for clinician: <strong>{clinicianId}</strong>
+						</div>
 					)}
 				</div>
 			</div>
@@ -76,7 +87,7 @@ export const PatientTable = ({ data }: Props) => {
 			<Pagination
 				currentPage={currentPage}
 				totalPages={totalPages}
-				totalItems={data.length}
+				totalItems={filteredData.length}
 				rowsPerPage={rowsPerPage}
 				onPageChange={setCurrentPage}
 			/>

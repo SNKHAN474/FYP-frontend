@@ -5,15 +5,17 @@ import { Button } from './Button';
 
 interface UploadProps {
 	patientId: string;
+	ulcerId: string;
 }
 
-const UploadScanDataButton: React.FC<UploadProps> = ({ patientId }) => {
+const UploadScanDataButton: React.FC<UploadProps> = ({ patientId, ulcerId }) => {
 	const [isOpen, setIsOpen] = useState(false);
 	const [isUploading, setIsUploading] = useState(false);
 
 	const { register, handleSubmit, reset, setValue } = useForm({
 		defaultValues: {
 			patientId: patientId,
+			ulcerId: ulcerId,
 			createdBy: 'SHAH',
 			patientComments: 'Manual upload',
 			glucoseLiveReadings: 8.5,
@@ -49,13 +51,25 @@ const UploadScanDataButton: React.FC<UploadProps> = ({ patientId }) => {
 			});
 
 			if (response.ok) {
-				alert('Scan record and files successfully uploaded');
+				const { scan } = await response.json();
+
+				// Create blank annotation so ScanSelector can see this scan
+				await fetch('http://localhost:3000/annotations', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({
+						scanId: scan._id,
+						patientId: data.patientId,
+						ulcerId: data.ulcerId,
+						points: [],
+						measurements: null,
+						grading: null,
+					}),
+				});
+
 				setIsOpen(false);
 				reset();
-				window.location.reload(); // Optional: Refresh to see the new scan in the list
-			} else {
-				const err = await response.json();
-				alert(`Upload failed: ${err.error}`);
+				window.location.reload();
 			}
 		} catch (error) {
 			console.error('Upload error:', error);
@@ -73,7 +87,7 @@ const UploadScanDataButton: React.FC<UploadProps> = ({ patientId }) => {
 				className='rounded-none px-4 py-4 text-lg font-normal'
 				onClick={() => setIsOpen(true)}
 			>
-				Upload Scan Data
+				Upload Annotation Data
 				<Upload className='ml-2 h-5 w-5' />
 			</Button>
 

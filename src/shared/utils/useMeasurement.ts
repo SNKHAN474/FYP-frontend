@@ -1,6 +1,11 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 
 export type Point = { x: number; y: number };
+
+interface MeasurementOptions {
+	coinPoints?: Point[]; // The reference polygon (£1 coin)
+	depthScaleMM?: number; // Usually 0.1 for RealSense
+}
 
 /**
  * Standard Ray-casting algorithm for Point-in-Polygon
@@ -18,14 +23,35 @@ function pointInPolygon(x: number, y: number, points: Point[]) {
 	return inside;
 }
 
-export function useMeasurement(width: number, height: number, depthData: Uint16Array | null) {
+/**
+ * Counts how many pixels are inside a given polygon
+ */
+function getPolygonPixelCount(points: Point[]): number {
+	if (points.length < 3) return 0;
+	const minX = Math.min(...points.map(p => p.x));
+	const maxX = Math.max(...points.map(p => p.x));
+	const minY = Math.min(...points.map(p => p.y));
+	const maxY = Math.max(...points.map(p => p.y));
+
+	let count = 0;
+	for (let y = Math.floor(minY); y <= Math.ceil(maxY); y++) {
+		for (let x = Math.floor(minX); x <= Math.ceil(maxX); x++) {
+			if (pointInPolygon(x, y, points)) count++;
+		}
+	}
+	return count;
+}
+
+export function useMeasurement(
+	width: number,
+	height: number,
+	depthData: Uint16Array | null,
+	options: MeasurementOptions = {},
+) {
 	const [points, setPoints] = useState<Point[]>([]);
 	const [result, setResult] = useState<any>(null);
 
-	// Realistic constant: MM_PER_PIXEL.
-	// 0.44mm is standard for Intel RealSense at ~30cm distance
-	const MM_PER_PIXEL = 0.44;
-	const AREA_PER_PIXEL = MM_PER_PIXEL * MM_PER_PIXEL;
+	const { coinPoints = [], depthScaleMM = 0.1 } = options;
 
 	const reset = () => {
 		setPoints([]);
@@ -33,13 +59,11 @@ export function useMeasurement(width: number, height: number, depthData: Uint16A
 	};
 
 	/**
-	 * Accuracy fix: Median Filter (3x3)
-	 * Reduces noise spikes that can cause "fake" depth readings
+	 * Median Filter (3x3) to remove depth noise
 	 */
 	const getSmoothedDepth = (x: number, y: number): number => {
 		if (!depthData) return 0;
 		const values: number[] = [];
-
 		for (let dy = -1; dy <= 1; dy++) {
 			for (let dx = -1; dx <= 1; dx++) {
 				const nx = x + dx;
@@ -50,46 +74,55 @@ export function useMeasurement(width: number, height: number, depthData: Uint16A
 				}
 			}
 		}
-
 		if (values.length === 0) return 0;
 		values.sort((a, b) => a - b);
 		return values[Math.floor(values.length / 2)];
 	};
 
 	const calculate = () => {
-		// Basic validation: must have data and a polygon (3+ points)
 		if (!depthData || points.length < 3) {
-			alert('Please plot at least 3 points around the wound.');
+			alert('Missing depth data or ulcer points.');
 			return null;
 		}
 
-		let pixelCount = 0;
-		let gapCount = 0;
-		let minDepth = Infinity;
-		let maxDepth = 0;
-		let totalDepthSum = 0;
+		// --- STEP 1: CALCULATE REAL-WORLD SCALE ---
+		let mmPerPixel = 0.293; // Default fallback for ~50cm distance
+		const REAL_COIN_AREA_MM2 = 412.45; // £1 coin standard
 
+		if (coinPoints.length >= 3) {
+			const coinPixelCount = getPolygonPixelCount(coinPoints);
+			if (coinPixelCount > 0) {
+				// Area = pixels * (mmPerPixel^2)
+				// mmPerPixel = sqrt(RealArea / PixelArea)
+				mmPerPixel = Math.sqrt(REAL_COIN_AREA_MM2 / coinPixelCount);
+			}
+		}
+
+		const AREA_PER_PIXEL = mmPerPixel * mmPerPixel;
+
+		// --- STEP 2: ANALYZE TARGET ULCER ---
 		const minX = Math.min(...points.map(p => p.x));
 		const maxX = Math.max(...points.map(p => p.x));
 		const minY = Math.min(...points.map(p => p.y));
 		const maxY = Math.max(...points.map(p => p.y));
 
-		// Scan the bounding box of the plotted polygon
+		let pixelCount = 0;
+		let totalDepthSum = 0;
+		let minDepth = Infinity;
+		let maxDepth = -Infinity;
+		let gapCount = 0;
+
 		for (let y = Math.floor(minY); y <= Math.ceil(maxY); y++) {
 			for (let x = Math.floor(minX); x <= Math.ceil(maxX); x++) {
 				if (!pointInPolygon(x, y, points)) continue;
 
-				// Use smoothed depth instead of raw pixel for accuracy
 				const rawDepth = getSmoothedDepth(x, y);
-
-				// 1. GAP DETECTION
 				if (!rawDepth || rawDepth === 0) {
 					gapCount++;
 					continue;
 				}
 
-				const depthMM = rawDepth * 0.1; // Typical RealSense scale is 0.1mm per unit
-
+				const depthMM = rawDepth * depthScaleMM;
 				pixelCount++;
 				totalDepthSum += depthMM;
 
@@ -98,45 +131,24 @@ export function useMeasurement(width: number, height: number, depthData: Uint16A
 			}
 		}
 
-		const totalSamples = pixelCount + gapCount;
-
-		// --- FRIDAY FOCUS: REJECTION LOGIC ---
-
-		// A. Reject if no valid pixels found
-		if (pixelCount === 0 || totalSamples === 0) {
-			alert('Measurement rejected: No depth data found within selection.');
+		const totalAreaAttempted = pixelCount + gapCount;
+		if (pixelCount === 0) {
+			alert('No valid depth data inside your selection.');
 			return null;
 		}
 
-		// B. Reject if too many gaps (> 30% of area is missing data)
-		const gapRatio = gapCount / totalSamples;
-		if (gapRatio > 0.3) {
-			alert(
-				`Measurement rejected: Data quality too low. Gap ratio: ${(gapRatio * 100).toFixed(1)}%. Please re-scan.`,
-			);
-			return null;
-		}
-
+		// --- STEP 3: RESULTS ---
 		const avgDepth = totalDepthSum / pixelCount;
 		const realAreaMM2 = pixelCount * AREA_PER_PIXEL;
-		const ulcerHoleDepth = maxDepth - minDepth;
-
-		// C. Reject if Depth = 0 (Ulcer is flat or surface noise)
-		// 0.5mm threshold accounts for standard sensor jitter
-		if (ulcerHoleDepth < 0.5) {
-			alert('Measurement rejected: Wound depth detected as zero or flat surface.');
-			return null;
-		}
+		const ulcerDepth = maxDepth - minDepth;
 
 		const res = {
 			area: realAreaMM2,
 			avgDepth: avgDepth,
-			maxDepth: maxDepth,
-			minDepth: minDepth,
-			ulcerDepth: ulcerHoleDepth,
+			ulcerDepth: ulcerDepth > 0 ? ulcerDepth : 0,
+			mmPerPixel: mmPerPixel,
 			pixelCount: pixelCount,
-			gapRatio: gapRatio,
-			confidence: (1 - gapRatio) * 100,
+			gapRatio: gapCount / totalAreaAttempted,
 		};
 
 		setResult(res);
@@ -146,7 +158,6 @@ export function useMeasurement(width: number, height: number, depthData: Uint16A
 	return {
 		points,
 		setPoints,
-		// Simplified addPoint to be used in Canvas click events
 		addPoint: (x: number, y: number) => setPoints(prev => [...prev, { x, y }]),
 		reset,
 		calculate,

@@ -1,4 +1,5 @@
 import React from 'react';
+import AddUlcerButton from './AddUlcerButton';
 
 interface Ulcer {
 	ulcerId: string;
@@ -8,9 +9,10 @@ interface Props {
 	ulcers: Ulcer[];
 	selectedUlcerId: string;
 	onSelect: (id: string) => void;
+	patientId: string; // 👈 add
 }
 
-const UlcerTabs: React.FC<Props> = ({ ulcers, selectedUlcerId, onSelect }) => {
+const UlcerTabs: React.FC<Props> = ({ ulcers, selectedUlcerId, onSelect, patientId }) => {
 	return (
 		<div className='mt-10 flex flex-wrap gap-3'>
 			{ulcers.map((u, index) => (
@@ -26,6 +28,8 @@ const UlcerTabs: React.FC<Props> = ({ ulcers, selectedUlcerId, onSelect }) => {
 					Ulcer {index + 1}
 				</button>
 			))}
+
+			<AddUlcerButton patientId={patientId} />
 		</div>
 	);
 };

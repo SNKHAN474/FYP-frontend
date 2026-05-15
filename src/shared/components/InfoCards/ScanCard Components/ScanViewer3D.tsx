@@ -187,11 +187,7 @@ const ScanViewer3D: React.FC<ScanViewer3DProps> = ({ plyPath, autoCenter = true,
 		// ---------- LOAD MODEL ----------
 		const loader = new PLYLoader();
 
-		const basePath = 'C:/Users/shahk/Documents/UCL/Y4/fyp/FYP/New folder';
-		const relative = plyPath.replace(/\\/g, '/').split(basePath.replace(/\\/g, '/'))[1];
-		const plyUrl = `http://localhost:3000/files${relative}`;
-
-		loader.load(plyUrl, geometry => {
+		loader.load(plyPath, geometry => {
 			geometry.computeVertexNormals();
 
 			if (autoCenter) {

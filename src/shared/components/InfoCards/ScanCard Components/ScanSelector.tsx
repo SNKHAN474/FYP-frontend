@@ -93,6 +93,7 @@ const ScanSelector: React.FC<ScanSelectorProps> = ({
 			value={selectedAnnotationId}
 			onChange={e => {
 				const annotation = annotations.find(a => a._id === e.target.value);
+				console.log('selected annotation:', annotation); // 👈
 				if (annotation) onChange(annotation._id, annotation.scanId);
 			}}
 		>

@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { createFileRoute, Navigate, Link } from '@tanstack/react-router';
-import { useAuth0 } from '@auth0/auth0-react';
+import { createFileRoute, useNavigate, Navigate, Link } from '@tanstack/react-router';
 import { Button } from '../../shared/components/Button';
 import TashaLogo from '../../shared/components/TashaLogo';
 import AuthLayout from '../../shared/components/TEMP_AuthLayout';
@@ -9,7 +8,10 @@ import TextInput from '../../shared/components/TextInput';
 import Dropdown from '../../shared/components/Dropdown';
 
 const Signup = () => {
-	const { loginWithRedirect, isLoading, isAuthenticated, user } = useAuth0();
+	const navigate = useNavigate();
+	const [isLoading, setIsLoading] = useState(false);
+	const [error, setError] = useState('');
+
 	const [formData, setFormData] = useState({
 		title: '',
 		firstName: '',
@@ -42,31 +44,56 @@ const Signup = () => {
 		}));
 	};
 
-	const signup = async () => {
-		if (!isLoading && !user) {
-			await loginWithRedirect({
-				authorizationParams: {
-					screen_hint: 'signup',
-				},
+	const handleSignup = async (e: React.FormEvent) => {
+		e.preventDefault();
+		setIsLoading(true);
+		setError('');
+
+		try {
+			const response = await fetch('http://localhost:3000/auth/signup', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify(formData),
 			});
+
+			const data = await response.json();
+
+			if (!response.ok) {
+				throw new Error(data.message || 'Registration failed');
+			}
+
+			// Store JWT and Header info[cite: 1]
+			localStorage.setItem('token', data.token);
+			localStorage.setItem('userName', `${data.staff.firstName} ${data.staff.lastName}`);
+			localStorage.setItem('userPosition', data.staff.position);
+
+			if (data.staff?.clinicianId) {
+				localStorage.setItem('clinicianId', data.staff.clinicianId);
+			}
+
+			navigate({ to: '/TEMP_table_test' });
+		} catch (err: any) {
+			setError(err.message);
+		} finally {
+			setIsLoading(false);
 		}
 	};
 
-	if (isAuthenticated) return <Navigate to='/patients' />;
+	const isAuthenticated = !!localStorage.getItem('token');
+	if (isAuthenticated) return <Navigate to='/TEMP_table_test' />;
 
 	return (
 		<AuthLayout>
 			{isLoading ? (
-				<>
+				<div className='flex flex-col items-center gap-4'>
 					<TashaLogo />
-					<p>Loading...</p>
-				</>
+					<p className='animate-pulse'>Creating your clinical account...</p>
+				</div>
 			) : (
 				<>
-					<h1 className='w-full text-center text-2xl text-blue-faded'>Create Account</h1>
+					<h1 className='w-full text-center text-2xl font-bold text-blue-faded'>Create Account</h1>
 
-					<div className='flex w-full flex-col gap-y-4'>
-						{/* Title Dropdown */}
+					<form onSubmit={handleSignup} className='flex w-full flex-col gap-y-4'>
 						<Dropdown
 							label='Title'
 							placeholderLabel='Select Title'
@@ -74,7 +101,7 @@ const Signup = () => {
 							updateValue={value => handleInputChange('title', value)}
 							options={titles}
 						/>
-						{/* Name Fields */}
+
 						<div className='flex gap-4'>
 							<div className='flex-1'>
 								<TextInput
@@ -82,6 +109,7 @@ const Signup = () => {
 									placeholder='First Name'
 									value={formData.firstName}
 									onChange={e => handleInputChange('firstName', e.target.value)}
+									required
 								/>
 							</div>
 							<div className='flex-1'>
@@ -90,10 +118,11 @@ const Signup = () => {
 									placeholder='Last Name'
 									value={formData.lastName}
 									onChange={e => handleInputChange('lastName', e.target.value)}
+									required
 								/>
 							</div>
 						</div>
-						{/* Position Dropdown */}
+
 						<Dropdown
 							label='Position'
 							placeholderLabel='Select Position'
@@ -101,69 +130,31 @@ const Signup = () => {
 							updateValue={value => handleInputChange('position', value)}
 							options={positions}
 						/>
-						{/* Email */}
+
 						<TextInput
 							label='Email'
 							placeholder='Email'
 							value={formData.email}
 							onChange={e => handleInputChange('email', e.target.value)}
+							required
 						/>
-						{/* Password with requirements */}
+
 						<PasswordInput
 							label='Password'
 							placeholder='Password'
 							value={formData.password}
 							onChange={e => handleInputChange('password', e.target.value)}
+							required
 						/>
-						{/* Password requirements - only show when password has content */}
-						{formData.password && (
-							<div className='text-gray-600 -mt-6 text-xs'>
-								<p>Password must contain:</p>
-								<ul className='ml-2 list-inside list-disc'>
-									<li
-										className={
-											formData.password.length >= 8 ? 'text-green-primary' : 'text-red-primary'
-										}
-									>
-										Minimum 8 characters
-									</li>
-									<li
-										className={
-											/[!@#$%^&*]/.test(formData.password)
-												? 'text-green-primary'
-												: 'text-red-primary'
-										}
-									>
-										At least one symbol (!@#$%^&*)
-									</li>
-									<li
-										className={
-											/(?=.*[a-zA-Z])(?=.*[0-9])/.test(formData.password)
-												? 'text-green-primary'
-												: 'text-red-primary'
-										}
-									>
-										Letters and numbers
-									</li>
-									<li
-										className={
-											/(?=.*[a-z])(?=.*[A-Z])/.test(formData.password)
-												? 'text-green-primary'
-												: 'text-red-primary'
-										}
-									>
-										Upper and lowercase letters
-									</li>
-								</ul>
-							</div>
-						)}
-					</div>
 
-					<Button variant='salmon' size='auth' onClick={signup}>
-						Sign Up
-					</Button>
+						{error && <p className='text-red-500 text-center text-sm font-bold'>{error}</p>}
 
-					<div className='login-page-link'>
+						<Button variant='salmon' size='auth' type='submit'>
+							Sign Up
+						</Button>
+					</form>
+
+					<div className='login-page-link text-center'>
 						Already have an account?{' '}
 						<Link to='/login' className='font-extrabold text-[#34ACBE] hover:underline'>
 							Login
